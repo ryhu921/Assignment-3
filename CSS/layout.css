@@ -1,0 +1,10 @@
+nav{
+    width: 100vw;
+    height: 127px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navheight{
+    height: fit-content;
+}
