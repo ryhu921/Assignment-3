@@ -17,8 +17,10 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap:50px;
-    width:100px;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding: 30px;
     height: 50px;
 }
 
@@ -31,6 +33,7 @@ nav{
 #currency{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 footer{

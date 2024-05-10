@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/layout.css">
-    
-    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <title>Document</title>
 </head>
 <body>
     <nav>
         <div id="navbar">
-            <img src="assets/hamburger.png">
-            <img src="assets/logo.png">            
-            <form><input type="text" id="searchbar" placeholder= img src="assets/search.png"></form>
-            <span id="currency">$AUD
-                <img src="assets/arrow_down.png">
-            </span>
+            <img src="assets/hamburger.svg">
+            <img src="assets/gdgames.svg">            
+            <form>
+                <div class="search">
+                    <span><img src="assets/search.svg"></span>
+                    <input type="search" class="search-input">
+                </div>
+            </form>
+            <div id="currency" class="audfont">$AUD
+                <img src="assets/arrow.svg">
+            </div>
         
-            <img src="assets/user.png">
-            <img src="assets/wishlist.png">
-            <img src="assets/basket_alt_3.png">
-        </div>
-        
+            <img src="assets/user.svg">
+            <img src="assets/wishlist.svg">
+            <img src="assets/basket.svg">
+        </div>  
     </nav>
     <main>
 
