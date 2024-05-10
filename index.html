@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/input.css">
+    
+    <link rel="stylesheet" href="css/font.css">
     <title>Document</title>
 </head>
 <body>
     <nav>
-        <div class="navheight">
+        <div id="navbar">
             <img src="assets/hamburger.png">
-            <img src="assets/logo.png">
-            <img src="assets/search.png">
-            <form><input type="text" placeholder="Search" id="navsearch"></form>
-            <span>AU kkkkkkkDjijij</span>
-            <img src="assets/arrow-down.png">
+            <img src="assets/logo.png">            
+            <form><input type="text" id="searchbar" placeholder= img src="assets/search.png"></form>
+            <span id="currency">$AUD
+                <img src="assets/arrow_down.png">
+            </span>
+        
             <img src="assets/user.png">
             <img src="assets/wishlist.png">
             <img src="assets/basket_alt_3.png">
@@ -27,7 +29,23 @@
 
     </main>
     <footer>
-
+        <div id="signup-section">
+            <span id="subscribe">Stay in the Loop</span>
+            <div id="signup-bar">
+                <form><input type="text" id="subscribe-input"></form>
+                <button id="sign-up">Sign Up</button>
+            </div>
+            <div id="check">
+                <input id="checkbox"type="checkbox">
+                <span id="consent">I agree to subscribe to updates from GD Games</span>   
+            </div>
+        </div>
+         <div id="social-media">
+            <img src="assets/twitter.png">
+            <img src="assets/tumblr.png">
+            <img src="assets/vimeo.png">
+            <img src="assets/instagram.png">
+         </div>
     </footer>
 </body>
 </html>
