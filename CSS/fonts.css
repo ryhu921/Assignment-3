@@ -8,6 +8,8 @@
     font-family: "Bebas Neue", sans-serif;
     font-size: 50px;
     color: #f5f5f5;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
 }
 
 .audfont{
@@ -21,6 +23,7 @@
     font-size: 16px;
     color: #f5f5f5;
     opacity: 50%;
+    margin: 0;
 }
 
 .category-large{

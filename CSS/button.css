@@ -1,0 +1,15 @@
+.btn{
+    border: none;
+    background: #DB0703;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-hero{
+    width: 31vw;
+    height: 5vh;
+    background-image: url(hero.png);
+    background-size: cover;
+}
