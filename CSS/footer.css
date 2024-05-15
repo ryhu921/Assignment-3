@@ -2,43 +2,81 @@ footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    height: 200px;
-}
-
-#signup-section{
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-
-#signup-bar{
+    height: 24vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-#social-media{
+.footercon{
+    max-height: fit-content;
     display: flex;
-    gap: 50px;
-    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    padding: 30px;
 }
 
-#subscribe-input{
+#subscribe{
+    margin-top: 0;
+}
+
+.footer-section1{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-bar{
+    display: flex;
+    flex-direction: row;
+    min-width: 14vw;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+    margin-right: auto;
+}
+
+.subscribe-input{
     border: none;
-    width: 265px;
+    outline: none;
+    width: 18vw;
     height: 34px;
 }
 
-#sign-up{
-    width: 79px;
-    height: 36px;
+.signup{
+    width: 6vw;
+    min-width: 4vw;
 }
 
-#check{
+.check{
     display: flex;
+    flex-direction: row;
     margin-top: 10px;
+    align-items: center;
 }
 
 #checkbox{
     border: none;
+    margin-left: 0;
+    border-radius: 0;
+}
+
+.footer-section2{
+    width: 100%;
+    padding-top: 18px;
+}
+
+.social-and-copyright{
+    margin-top: auto;
+    width: 100%;
+}
+
+.divider{
+    height: 128px;
+    width: 1px;
+    background-color: #f5f5f5;
+    opacity: 50%;
+    margin: 0 5vw;
 }

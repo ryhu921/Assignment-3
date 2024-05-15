@@ -4,12 +4,13 @@
     color: #f5f5f5;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-family: "Inter", sans-serif;
 }
 
 .btn-hero{
     width: 31vw;
-    height: 5vh;
-    background-image: url(hero.png);
+    height: 42px;
+    background-image: url(assets/hero.png);
     background-size: cover;
+    font-size: 20px;
 }

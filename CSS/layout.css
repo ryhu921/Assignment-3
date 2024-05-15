@@ -1,8 +1,3 @@
-body{
-    margin: 0px;
-    padding: 0px;
-}
-
 main{
     margin-top: 20vh;
 }
@@ -10,6 +5,10 @@ main{
 .center{
     align-items: center;
     justify-content: center;
+}
+
+.vert-center{
+    align-items: center;
 }
 
 .flex-row{
@@ -20,4 +19,12 @@ main{
 .flex-col{
     display: flex;
     flex-direction: column;
+}
+
+.align-bottom{
+    align-items: baseline;
+}
+
+.align-right{
+    justify-content: flex-end;
 }
