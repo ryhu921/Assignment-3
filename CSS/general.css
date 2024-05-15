@@ -10,3 +10,13 @@ a {
     color: inherit;
     height: 0;
 }
+
+.section {
+    overflow-y: hidden;
+    overflow-x: auto;
+
+}
+
+h1{
+    margin: 0;
+}
