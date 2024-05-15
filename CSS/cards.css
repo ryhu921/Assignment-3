@@ -39,3 +39,8 @@
     background-size: cover;
     background-repeat: none;
 }
+
+.xbox{
+    background-image: url();
+    height: 40vh;
+}

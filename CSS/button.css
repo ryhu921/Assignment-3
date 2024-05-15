@@ -14,3 +14,9 @@
     background-size: cover;
     font-size: 20px;
 }
+
+.btn-expand{
+    width: 31vw;
+    height: 42px;
+    font-size: 20px;
+}
