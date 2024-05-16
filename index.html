@@ -6,7 +6,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/genral.css/">
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/input.css">
@@ -16,8 +15,10 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/others.css">
+    <link rel="stylesheet" href="css/general.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav>
         <div id="navbar">
@@ -45,25 +46,32 @@
     </nav>
 
     <main>
-        <div class="hero flex-col"> 
+        <div class="herocon flex-col">
+            <div class="hero flex-col"> 
 
-            <img src="assets/hero.png" alt="heroimage" class="heroimage">
-            <div class="heroitems flex-col center">
-                <h3 class="subheading-hero">Nintendo Switch/Playstation 4</h3>
-                <h1 class="main-heading-hero">Castlevania Advance Collection</h1>
-                <button class="btn btn-hero">Learn More</button>
-            </div>
-            
-            <div class="scroll-tab-hero flex-row">
-                <a href=""><img src="assets/right-arrow-hero.svg" alt=""></a>
-                <div class="scroll-status-hero">
-                    <a href=""><img src="assets/filled-dash.svg" alt=""></a>
-                    <a href=""><img src="assets/blank-dash.svg" alt=""></a>
-                    <a href=""><img src="assets/blank-dash.svg" alt=""></a>
+                <img src="assets/hero.png" alt="heroimage" class="heroimage">
+                <div class="heroitems flex-col center">
+                    <h3 class="subheading-hero">Nintendo Switch/Playstation 4</h3>
+                    <h1 class="main-heading-hero">Castlevania Advance Collection</h1>
+                    <button class="btn btn-hero">Learn More</button>
                 </div>
-                <a href=""><img src="assets/left-arrow-hero.svg" alt=""></a>
+                
+                <div class="scroll-tab-hero flex-row">
+                    <a href=""><img src="assets/right-arrow-hero.svg" alt=""></a>
+                    <div class="scroll-status-hero">
+                        <a href=""><img src="assets/filled-dash.svg" alt=""></a>
+                        <a href=""><img src="assets/blank-dash.svg" alt=""></a>
+                        <a href=""><img src="assets/blank-dash.svg" alt=""></a>
+                    </div>
+                    <a href=""><img src="assets/left-arrow-hero.svg" alt=""></a>
+                </div>
+                <div class="extension"></div>
             </div>
         </div>
+
+
+
+
 
         <div class="categories-heading flex-col center">
             <div class="redline"></div>
@@ -92,11 +100,11 @@
                 </div>
             </div>
         </div>
-        <div class="con flex-col center">
+        <div class="on-sale con flex-col center">
             <div class="redline"></div>
             <h1 class="main-heading-large">On Sale</h1>
 
-            <div class="con on-sale flex-row">
+            <div class="on-sale-games flex-row">
                 <div class="gamecard flex-col">
                     <div class="assassins-creed flex-col">
                         <div class="on-sale-description">
