@@ -4,9 +4,8 @@
 } 
 
 .con{
-    margin-top: 25vh;
     max-width: 100vw;
-    padding: 30px
+    padding: 30px;
 }
 
 .center{
@@ -34,4 +33,8 @@
 
 .align-right{
     justify-content: flex-end;
+}
+
+.headings{
+    margin-top: 10vh;
 }

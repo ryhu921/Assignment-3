@@ -55,6 +55,15 @@
     font-weight: medium;
 }
 
+.onsale-subpricing{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #f5f5f5;
+    opacity: 50%;
+    font-weight: medium;
+    text-decoration: line-through;
+}
+
 .onsale-pricing{
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -225,4 +234,9 @@
     font-size: 12px;
     color: #f5f5f5;
     opacity: 80%;
+}
+
+.categories-heading{
+    margin-top: 25vh;
+    margin-bottom: 5vh;
 }
