@@ -91,6 +91,10 @@
     gap: 1vw;
 }
 
+.on-sale{
+    margin-top: 100px;
+}
+
 
 .on-sale-games{
     width: 100%;
@@ -99,10 +103,12 @@
     gap: 1vw;
     margin-top: 50px;
     margin-bottom: 60px;
+    margin-left: 30px;
+    overflow-x: auto;
 }
 
 .gamecard{
-    width: 33vw;
+    width: 500px;
     height: fit-content;
 }
 
@@ -113,8 +119,8 @@
 }
 
 .assassins-creed{
-    width: 100%;
-    height: 40vh;
+    width: 436px;
+    height: 350px;
     background-image: url(../assets/assassins-creed.png);
     background-size: cover;
     background-position: center;
@@ -122,8 +128,8 @@
 }
 
 .battlefield{
-    width: 100%;
-    height: 40vh;
+    width: 436px;
+    height: 350px;
     background-image: url(../assets/battlefield.png);
     background-size: cover;
     background-position: center;
@@ -131,9 +137,36 @@
 }
 
 .overcooked{
-    width: 100%;
-    height: 40vh;
+    width: 436px;
+    height: 350px;
     background-image: url(../assets/overcooked.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.humans-fall-flat{
+    width: 436px;
+    height: 350px;
+    background-image: url(../assets/humans-fall-flat.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ac-vahalla{
+    width: 436px;
+    height: 350px;
+    background-image: url(../assets/ac-valhalla.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.demon-slayer{
+    width: 436px;
+    height: 350px;
+    background-image: url(../assets/demon-slayer.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
