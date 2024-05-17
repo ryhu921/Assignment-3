@@ -38,11 +38,6 @@ main{
     justify-content: flex-end;
 }
 
-.align-left{
-    margin-left: 3px;
-    text-align: left; 
-}
-
 .headings{
     margin-top: 10vh;
 }
