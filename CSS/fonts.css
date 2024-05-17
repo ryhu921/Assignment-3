@@ -44,6 +44,7 @@
     font-size: 12px;
     color: rgba(245, 245, 245, 0.5);
     font-weight: medium;
+    margin-bottom: 10px;
 }
 
 .onsale-heading{
@@ -59,6 +60,9 @@
     color: rgba(245, 245, 245, 0.5);
     font-weight: medium;
     text-decoration: line-through;
+    margin-left: 1.2vw;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .onsale-pricing{
@@ -66,6 +70,7 @@
     font-size: 16px;
     color: #f5f5f5;
     font-weight: 600;
+    margin-left: 1.2vw;
 }
 
 .bestsellers-subheading-large{
