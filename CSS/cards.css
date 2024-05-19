@@ -93,6 +93,7 @@
 
 .on-sale{
     margin-top: 100px;
+    max-width: 100vw;
 }
 
 
@@ -108,7 +109,7 @@
     overscroll-behavior-inline: contain;
 }
 
-.gamecard{
+.onsale-gamecard{
     width: 500px;
     height: fit-content;
 }
@@ -238,6 +239,39 @@
     width: 50vw;
     background-size: cover;
     background-repeat: none;
+}
+
+
+/* latest games */
+
+.latest-games{
+    margin-top: 100px;
+    max-width: 100vw;
+}
+
+
+.game-cards-row{
+    width: 100%;
+    max-width: 100vw;
+    height:fit-content;
+    gap: 1vw;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.game-card {
+    background-color: #111111;
+    height: fit-content;
+    width: 436px;
+    padding: 30px;
+}
+
+.game-card-img{
+    height: 400px;
+    width: fit-content;
 }
 
 /*product list page*/
