@@ -18,3 +18,25 @@
   background: transparent;
   width: 100%;
 }
+
+/* check out page*/
+.info-input{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 50px;
+  width: 20vw;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  background: #ebebeb;
+}
+
+.long-info{
+  width: 40.5vw;
+}
+
+.dropdown-list{
+  font-size: 17px;
+  font-family: "Inter";
+  border: none;
+}

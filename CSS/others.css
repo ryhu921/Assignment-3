@@ -34,3 +34,11 @@
     width: 100vw;
     background-image: url(../assets/product-page-1/a-plague-tale-innocence-background.png);
 }
+
+/* check out page*/
+
+#checkbox{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}

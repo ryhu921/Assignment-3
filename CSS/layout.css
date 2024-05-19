@@ -38,6 +38,33 @@ main{
     justify-content: flex-end;
 }
 
+.align-left{
+    justify-content:flex-start;
+}
+
 .headings{
     margin-top: 10vh;
+}
+
+/*check out page*/
+.checkout-heading{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.inputbox-gap{
+    gap: 8px;
+}
+
+.spacing{
+   gap: 145px;
+}
+
+.row-width{
+    width: 500px;
+}
+
+.icon-size{
+    width: 30px;
+    height: 30px;
 }

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/color.css">
+    <link rel="stylesheet" href="../css/input.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/others.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <div id="navcon1">
+                <img src="../assets/hamburger.svg">
+                <img src="../assets/gdgames.svg">   
+            </div>  
+            <div id="navcon2">       
+                <form>
+                    <div class="search">
+                        <span><img src="../assets/search.svg"></span>
+                        <input type="search" class="search-input">
+                    </div>
+                </form>
+            </div>
+            <div id="navcon3">
+                <div id="currency" class="audfont">$AUD
+                    <img src="../assets/arrow.svg">
+                </div>
+                <img src="../assets/user.svg">
+                <img src="../assets/wishlist.svg">
+                <img src="../assets/basket.svg">
+            </div>  
+        </div>
+    </nav>  
+    
+    <main>
+        <div class="flex-row center spacing">
+<!-- left half -->
+            <div class="flex-col">
+                <!-- shipping info -->
+                <div class="checkout-heading flex-col center">
+                    <div class="redline"></div>
+                    <h1 class="product-shipping">Shipping Information</h1>
+                </div>
+                <div class="flex-row inputbox-gap">
+                    <div class="flex-col">
+                        <p class="input-heading">First Name: *</p>
+                        <form>
+                            <div class="info-input">
+                                <input type="text" class="search-input">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="flex-col">
+                        <p class="input-heading">Last Name: *</p>
+                        <form>
+                            <div class="info-input">
+                                <input type="text" class="search-input">
+                            </div>
+                        </form>
+                    </div>                   
+                </div>
+                <div class="flex-row">
+                    <div class="flex-col">
+                        <p class="input-heading">Email Address: *</p>
+                        <form>
+                            <div class="info-input long-info">
+                                <input type="text" class="search-input">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-col">
+                        <p class="input-heading">Phone Number: *</p>
+                        <form>
+                            <div class="info-input long-info">
+                                <input type="text" class="search-input">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-col">
+                        <p class="input-heading">Street Address: *</p>
+                        <form>
+                            <div class="info-input long-info">
+                                <input type="text" class="search-input">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="flex-row inputbox-gap">
+                    <div class="flex-col">
+                        <p class="input-heading">Suburb: *</p>
+                        <form>
+                            <div class="info-input">
+                                <input type="text" class="search-input">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="flex-col">
+                        <p class="input-heading">State/Territory: *</p>
+                        <form>
+                            <div class="info-input">                                
+                                <select class ="info-input dropdown-list" name="state/territory" id="state/territory">
+                                    <option value="unselected"></option>                    
+                                    <option value="nsw">New South Wales</option>
+                                    <option value="vic">Victoria</option>
+                                    <option value="qld">Queensland</option>
+                                    <option value="sa">South Australia</option>
+                                    <option value="wa">Western Australia</option>
+                                    <option value="tas">Tasmania</option>
+                                    <option value="nt">Northern Territory</option>
+                                    <option value="act">Australian Capital Territory</option>
+                                    <option value="other-territories">Other Territories</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>                   
+                </div>
+                <div class="flex-row inputbox-gap">
+                    <div class="flex-col">
+                        <p class="input-heading">Post Code: *</p>
+                        <form>
+                            <div class="info-input">
+                                <input type="text" class="search-input">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="flex-col">
+                        <p class="input-heading">Country: *</p>
+                        <form>
+                            <div class="info-input">                                
+                                <select class ="info-input dropdown-list" name="state/territory" id="state/territory">
+                                    <option value="unselected"></option>                    
+                                    <option value="aus">Australia</option>                        
+                                </select>
+                            </div>
+                        </form>
+                    </div>                   
+                </div>
+                <div class="flex-row">
+                    <div class="check">
+                        <input id="checkbox" type="checkbox">
+                        <span class="inter-regular-16">I have a different billing address</span>   
+                    </div>
+                </div>
+                <!-- shipping method -->
+                <div class="flex-col">
+                    <div class="checkout-heading flex-col center">
+                        <div class="redline"></div>
+                        <h1 class="product-shipping">Shipping Method</h1>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- right half -->
+            <div class="flex-col">
+                <div class="flex-row">
+                    <div><img class="image-size" src="../assets/product-list/a-plague-tale-innocence.png" alt="a-plague-tale-innocence"></div>
+                    <div class="flex-col spacing">
+                        <div class="flex-row center">
+                            <p class="product-name size-checkout align-left">A Plague Tale: Innocence</p>
+                            <img class="align-right"src="../assets/check-out/Trash.svg" alt="trash">
+                        </div>
+                        <div class="flex-row">
+                            <p class="product-price align-left">QTY: 1</p>
+                            <p class="product-price size-checkout align-right">$49.00</p>
+                        </div>
+                    </div>
+                </div>
+            
+
+            </div>
+
+            
+
+            </div>
+        </div>
+    </main>
+</body>
