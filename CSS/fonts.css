@@ -78,12 +78,16 @@
     font-size: 32px;
     color: rgba(245, 245, 245, 0.5);
     font-weight: medium;
+    margin-bottom: 30px;
+    margin-top: auto;
 }
 
 .bestsellers-heading-large{
     font-family: "Inter", sans-serif;
     font-size: 36px;
     color: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .bestsellers-pricing-large{
@@ -98,12 +102,15 @@
     font-size: 22px;
     color: rgba(245, 245, 245, 0.5);
     font-weight: medium;
+    margin-bottom: 10px;
+    margin-top: auto;
 }
 
 .bestsellers-heading-small{
     font-family: "Inter", sans-serif;
     font-size: 26px;
     color: #f5f5f5;
+    margin-bottom: 10px;
 }
 
 .bestsellers-pricing-small{
@@ -111,6 +118,28 @@
     font-size: 26px;
     color: #f5f5f5;
     font-weight: 600;
+}
+
+/* .best-sellers-ranking-large{
+    font-family: "Inter", sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    background-color: #111111;
+    color: transparent;
+    text-shadow: 0px 2px 2px rgba(219, 7, 3, 0.9);
+    background-clip: text;
+} */
+
+.ratchet-and-clank-description img{
+    margin-top: 30px;
+    height: 100px;
+    width: fit-content;
+}
+
+.best-seller-small-description img{
+    margin-top: 30px;
+    height: 60px;
+    width: fit-content;
 }
 
 .blog-subheading{

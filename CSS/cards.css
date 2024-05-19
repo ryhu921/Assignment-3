@@ -105,6 +105,7 @@
     margin-bottom: 60px;
     margin-left: 30px;
     overflow-x: auto;
+    overscroll-behavior-inline: contain;
 }
 
 .gamecard{
@@ -178,7 +179,66 @@
     background-color: #111111;
 }
 
+.best-sellers{
+    margin-top: 50px;
+    max-width: 100vw;
+    gap: 2vh;
+    margin-bottom: 60px;
+}
 
+.best-sellers-two-and-three{
+    gap: 1vw;
+}
+
+.best-sellers-con{
+    margin-top: 100px;
+    background-color: #111111;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    height: fit-content;
+    width: 100vw;
+}
+
+.ratchet-and-clank{
+    background-image: url(../assets/ratchet-and-clank.png);
+    background-position: right;
+    width: 100vw;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ratchet-and-clank-description{
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    height: 100%;
+}
+
+.xenoblade{
+    background-image: url(../assets/xenoblade.png);
+    background-position: right;
+    height: 380px;
+    width: 50vw;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.best-seller-small-description{
+    margin-top: auto;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.sekiro{
+    background-image: url(../assets/sekiro.png);
+    background-position: right;
+    height: 380px;
+    width: 50vw;
+    background-size: cover;
+    background-repeat: none;
+}
 
 /*product list page*/
 
