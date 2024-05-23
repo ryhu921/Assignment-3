@@ -147,6 +147,8 @@
     font-size: 16px;
     color: rgba(245, 245, 245, 0.5);
     font-weight: medium;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
 
 .latest-game-title{

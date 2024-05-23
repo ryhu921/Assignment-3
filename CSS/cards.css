@@ -266,13 +266,13 @@
 
 .game-card {
     background-color: #111111;
-    height: 550px;
+    height: fit-content;
     width: 600px;
     padding: 30px;
 }
 
 .game-card-img{
-    height: 400px;
+    height: 460px;
     width: fit-content;
 }
 
