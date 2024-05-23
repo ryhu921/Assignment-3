@@ -6,3 +6,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.product-page-image-1{
+    height: 420px;
+    margin-bottom: 60px;
+    padding: 30px;
+}
