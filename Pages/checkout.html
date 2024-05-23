@@ -46,7 +46,7 @@
     </nav>  
     
     <main>
-        <div class="flex-row center spacing">
+        <div class="flex-row horizontal-center spacing">
 <!-- left half -->
             <div class="flex-col">
                 <!-- shipping info -->
@@ -56,63 +56,84 @@
                 </div>
                 <div class="flex-row inputbox-gap">
                     <div class="flex-col">
-                        <p class="input-heading">First Name: *</p>
+                        <div class="flex-row">
+                           <p class="inter-regular-16">First Name:</p> 
+                           <p class="inter-regular-16 asterisk">*</p>
+                        </div>
                         <form>
                             <div class="info-input">
-                                <input type="text" class="search-input">
+                                <input type="text" class="info">
                             </div>
                         </form>
                     </div>
                     <div class="flex-col">
-                        <p class="input-heading">Last Name: *</p>
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Last Name:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                         </div>                        
                         <form>
                             <div class="info-input">
-                                <input type="text" class="search-input">
+                                <input type="text" class="info">
                             </div>
                         </form>
                     </div>                   
                 </div>
                 <div class="flex-row">
                     <div class="flex-col">
-                        <p class="input-heading">Email Address: *</p>
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Email Address:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                         </div>
                         <form>
                             <div class="info-input long-info">
-                                <input type="text" class="search-input">
+                                <input type="text" class="info">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="flex-row margin-bottom">
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Phone Number:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                         </div>
+                        <form>
+                            <div class="info-input long-info">
+                                <input type="text" class="info">
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="flex-row">
                     <div class="flex-col">
-                        <p class="input-heading">Phone Number: *</p>
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Street Address:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                         </div>
                         <form>
                             <div class="info-input long-info">
-                                <input type="text" class="search-input">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="flex-row">
-                    <div class="flex-col">
-                        <p class="input-heading">Street Address: *</p>
-                        <form>
-                            <div class="info-input long-info">
-                                <input type="text" class="search-input">
+                                <input type="text" class="info">
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="flex-row inputbox-gap">
                     <div class="flex-col">
-                        <p class="input-heading">Suburb: *</p>
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Suburb:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                         </div>
                         <form>
                             <div class="info-input">
-                                <input type="text" class="search-input">
+                                <input type="text" class="info">
                             </div>
                         </form>
                     </div>
                     <div class="flex-col">
-                        <p class="input-heading">State/Territory: *</p>
+                        <div class="flex-row">
+                            <p class="inter-regular-16">State/Territory:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                         </div>
                         <form>
                             <div class="info-input">                                
                                 <select class ="info-input dropdown-list" name="state/territory" id="state/territory">
@@ -133,15 +154,21 @@
                 </div>
                 <div class="flex-row inputbox-gap">
                     <div class="flex-col">
-                        <p class="input-heading">Post Code: *</p>
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Post Code:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                         </div>
                         <form>
                             <div class="info-input">
-                                <input type="text" class="search-input">
+                                <input type="text" class="info">
                             </div>
                         </form>
                     </div>
                     <div class="flex-col">
-                        <p class="input-heading">Country: *</p>
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Country:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                         </div>
                         <form>
                             <div class="info-input">                                
                                 <select class ="info-input dropdown-list" name="state/territory" id="state/territory">
@@ -164,33 +191,207 @@
                         <div class="redline"></div>
                         <h1 class="product-shipping">Shipping Method</h1>
                     </div>
+                    <div class="flex-col spacing-small red-rectangle">
+                        <div class="flex-row spacing-small">
+                            <img src="../assets/check-out/selected-ellipse.svg" alt="selected-ellipse">
+                            <p class="inter-semibold-16">Standard Delivery</p>
+                        </div>
+                        <div class="margin-left">
+                            <p class="inter-semibold-12">Free; deliver within 4-6 business days</p>
+                        </div>
+                    </div>
+                    <div class="flex-col spacing-small red-rectangle unselected-rect">
+                        <div class="flex-row spacing-small">
+                            <img src="../assets/check-out/ellipse.svg" alt="ellipse">
+                            <p class="inter-semibold-16">Express Delivery</p>
+                        </div>
+                        <div class="margin-left">
+                            <p class="inter-semibold-12">$10; deliver within 2-3 business days</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- payment method -->
+                <div class="flex-col">
+                    <div class="checkout-heading flex-col center">
+                        <div class="redline"></div>
+                        <h1 class="product-shipping">Payment Method</h1>
+                    </div>
+                    <div class="flex-col spacing-small red-rectangle rect-large">
+                        <div class="flex-row spacing-small vert-center">
+                            <img src="../assets/check-out/selected-ellipse.svg" alt="selected-ellipse">
+                            <p class="inter-semibold-16">Credit / Debit Card</p>
+                            <div class="flex-row margin-left-large logo-gap">
+                                <img src="../assets/check-out/visa.svg" alt="visa">
+                                <img src="../assets/check-out/mastercard.svg" alt="mastercard">
+                                <img src="../assets/check-out/amex.svg" alt="amex">
+                                <img src="../assets/check-out/unionpay.svg" alt="unionpay">
+                                <img src="../assets/check-out/ucb.svg" alt="ucb">
+                            </div>
+                        </div>
+                        <div class="flex-col">
+                            <div class="flex-col ">
+                                <div class="flex-row">
+                                    <p class="inter-regular-16">Card Number:</p> 
+                                    <p class="inter-regular-16 asterisk">*</p>
+                                 </div>
+                                <form>
+                                    <div class="info-input payment-method-long">
+                                        <input type="text" class="info">
+                                    </div>
+                                </form>
+                            </div>    
+                            <div class="flex-row inputbox-gap">
+                                <div class="flex-col">
+                                    <div class="flex-row">
+                                        <p class="inter-regular-16">Expiration Date:</p> 
+                                        <p class="inter-regular-16 asterisk">*</p>
+                                     </div>
+                                    <form>
+                                        <div class="info-input payment-method">
+                                            <input type="text" class="info">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="flex-col">
+                                    <div class="flex-row">
+                                        <p class="inter-regular-16">Security Code:</p> 
+                                        <p class="inter-regular-16 asterisk">*</p>
+                                     </div>
+                                    <form>
+                                        <div class="info-input payment-method">
+                                            <input type="text" class="info">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="flex-row">
+                                    <p class="inter-regular-16">Name On Card:</p> 
+                                    <p class="inter-regular-16 asterisk">*</p>
+                                 </div>
+                                <form>
+                                    <div class="info-input payment-method-long">
+                                        <input type="text" class="info">
+                                    </div>
+                                </form>
+                            </div>                        
+                        </div>
+                    </div>
+                     <!-- Paypal -->
+                    <div class="flex-col rect-regular horizontal-center ">
+                        <div class="flex-row vert-center spacing-small">
+                            <img src="../assets/check-out/ellipse.svg" alt="ellipse">
+                            <p class="inter-semibold-16">Paypal</p>
+                            <div class="flex-row push-to-right">
+                                <img src="../assets/check-out/paypal.svg" alt="paypal">
+                            </div>                            
+                        </div>
+                        <div>
+                            <img src="../assets/check-out/greyline.svg" alt="greyline">
+                        </div>                       
+                    </div>
+                    <!-- Google Pay -->
+                    <div class="flex-col rect-regular horizontal-center">
+                        <div class="flex-row vert-center spacing-small">
+                            <img src="../assets/check-out/ellipse.svg" alt="ellipse">
+                            <p class="inter-semibold-16">Google Pay</p>
+                            <div class="flex-row push-to-right">
+                                <img src="../assets/check-out/googlepay.svg" alt="googlepay">
+                            </div>                            
+                        </div>
+                        <div>
+                            <img src="../assets/check-out/greyline.svg" alt="greyline">
+                        </div>                       
+                    </div>
+                    <!-- After Pay -->
+                    <div class="flex-col rect-regular horizontal-center">
+                        <div class="flex-row vert-center spacing-small">
+                            <img src="../assets/check-out/ellipse.svg" alt="ellipse">
+                            <p class="inter-semibold-16">AfterPay</p>
+                            <div class="flex-row push-to-right">
+                                <img src="../assets/check-out/afterpay.svg" alt="afterpay">
+                            </div>                            
+                        </div>
+                        <div>
+                            <img src="../assets/check-out/greyline.svg" alt="greyline">
+                        </div>                       
+                    </div>
+                    <!-- Zip -->
+                    <div class="flex-col rect-regular horizontal-center">
+                        <div class="flex-row vert-center spacing-small">
+                            <img src="../assets/check-out/ellipse.svg" alt="ellipse">
+                            <p class="inter-semibold-16">Zip</p>
+                            <div class="flex-row push-to-right">
+                                <img src="../assets/check-out/zip.svg" alt="zip">
+                            </div>                            
+                        </div>
+                        <div>
+                            <img src="../assets/check-out/greyline.svg" alt="greyline">
+                        </div>                       
+                    </div>
+                    <!-- Save And Continue -->
+                    <div class="flex-row center checkout-heading">
+                        <button class="btn btn-savecontinue">Save And Continue</button>
+                    </div>
                 </div>
             </div>
 
             
 
             <!-- right half -->
-            <div class="flex-col">
-                <div class="flex-row">
+            <div class="flex-col margin-top spacing-medium">
+                <!-- a plague tale innocence -->
+                <div class="flex-row spacing-small">
                     <div><img class="image-size" src="../assets/product-list/a-plague-tale-innocence.png" alt="a-plague-tale-innocence"></div>
-                    <div class="flex-col spacing">
-                        <div class="flex-row center">
-                            <p class="product-name size-checkout align-left">A Plague Tale: Innocence</p>
-                            <img class="align-right"src="../assets/check-out/Trash.svg" alt="trash">
+                    <div class="flex-col spacing row-width">
+                        <div class="flex-row vert-center spacing-small">
+                            <p class="inter-medium-18">A Plague Tale: Innocence</p>
+                            <img class="push-to-right"src="../assets/check-out/trash.svg" alt="trash">
                         </div>
-                        <div class="flex-row">
-                            <p class="product-price align-left">QTY: 1</p>
-                            <p class="product-price size-checkout align-right">$49.00</p>
+                        <div class="flex-row vert-center spacing-small">
+                            <p class="inter-medium-16">QTY: 1</p>
+                            <p class="inter-medium-18 push-to-right">$49.00</p>
                         </div>
                     </div>
                 </div>
-            
-
+                <!-- a plague tale requiem -->
+                <div class="flex-row spacing-small">
+                    <div><img class="image-size" src="../assets/product-list/a-plague-tale-requiem.png" alt="a-plague-tale-requiem"></div>
+                    <div class="flex-col spacing row-width">
+                        <div class="flex-row vert-center spacing-small">
+                            <p class="inter-medium-18">A Plague Tale: Requiem</p>
+                            <img class="push-to-right" src="../assets/check-out/trash.svg" alt="trash">
+                        </div>
+                        <div class="flex-row vert-center spacing-small">
+                            <p class="inter-medium-16">QTY: 1</p>
+                            <p class="inter-medium-18 push-to-right">$44.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../assets/check-out/greyline.svg" alt="greyline">
+                </div> 
+                <!--subtotal and shipping -->
+                <div class="flex-col spacing-small">
+                    <div class="flex-row">
+                        <p class="inter-semibold-16">Subtotal (inc GST)</p>
+                        <p class="push-to-right inter-medium-16">$93.00</p>
+                    </div>
+                    <div class="flex-row">
+                        <p class="inter-semibold-16">Shipping</p>
+                        <p class="push-to-right inter-medium-16">Free</p>
+                    </div>
+                </div>
+                <!--total amount -->
+                <div class="flex-row vert-center">
+                    <p class="inter-bold-24">Total Amount</p>
+                    <p class="inter-bold-24 push-to-right">$93.00</p>
+                </div>
             </div>
 
             
 
-            </div>
+            
         </div>
     </main>
 </body>

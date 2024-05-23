@@ -65,8 +65,16 @@ main{
    gap: 145px;
 }
 
+.spacing-small{
+    gap: 20px;
+}
+
+.spacing-medium{
+    gap: 40px;
+}
+
 .row-width{
-    width: 500px;
+    width: 340px;
 }
 
 .icon-size{
@@ -74,10 +82,30 @@ main{
     height: 30px;
 }
 
-.relative{
-    position: relative;
+.margin-left{
+    margin-left: 40px;
 }
 
-.absolute{
-    position: absolute;
+.margin-left-large{
+    margin-left: 80px;
+}
+
+.horizontal-center{
+    justify-content: center;
+}
+
+.logo-gap{
+    gap: 3px;
+}
+
+.push-to-right{
+    margin-left: auto;
+}
+
+.margin-top{
+    margin-top: 200px;
+}
+
+.margin-bottom{
+    margin-bottom: 30px;
 }

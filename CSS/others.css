@@ -43,6 +43,28 @@
     height: 20px;
 }
 
-.scroll-status-product{
-    gap: 1.5vw;
+.red-rectangle{
+    padding: 3%;
+    width: 575px;
+    height: 101px;
+    border-style: solid;
+    border-color: #db0703;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.unselected-rect{
+    border-style: none;
+    margin-bottom: 0px;
+}
+
+.rect-large{
+    height: 350px;
+}
+
+.rect-regular{
+    padding: 3%;
+    width: 555px;
+    height: 80px;
+    display: flex;
 }
