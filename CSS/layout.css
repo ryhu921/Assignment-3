@@ -47,6 +47,10 @@ main{
     justify-content:flex-start;
 }
 
+.align-top{
+    justify-content: start;
+}
+
 .headings{
     margin-top: 10vh;
 }
@@ -116,4 +120,8 @@ main{
 
 .margin-bottom{
     margin-bottom: 30px;
+}
+
+.margin-bottom-small{
+    margin-bottom: 20px;
 }

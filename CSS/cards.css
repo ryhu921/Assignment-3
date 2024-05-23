@@ -372,6 +372,7 @@
     padding-right: 133px;
     padding-top: 100px;
     justify-content: center;
+    gap: 15vw;
 }
 
 .product-image-scroll{

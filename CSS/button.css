@@ -60,6 +60,22 @@
     margin-left: 30px;
 }
 
+.btn-add-to-cart{
+    width: 33vw;
+    height: 65px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-add-to-wish-list{
+    width: 33vw;
+    height: 65px;
+    font-size: 20px;
+    background: transparent;
+    border: #DB0703 2px solid;
+    margin-bottom: 30px;
+}
+
 /* check out page*/
 .btn-savecontinue{
     width: 30vw;

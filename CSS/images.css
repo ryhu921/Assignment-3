@@ -12,3 +12,8 @@
     margin-bottom: 60px;
     padding: 30px;
 }
+
+.maintain-size{
+    height: fit-content;
+    width: fit-content;
+}
