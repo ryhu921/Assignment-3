@@ -50,3 +50,10 @@ nav{
     justify-content: space-between;
 }
 
+.nav-transparent{
+    background-color: transparent;
+}
+
+.nav-absolute{
+    position: absolute;
+}

@@ -104,7 +104,8 @@
     gap: 1vw;
     margin-top: 50px;
     margin-bottom: 60px;
-    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 }
@@ -257,15 +258,16 @@
     gap: 1vw;
     margin-top: 50px;
     margin-bottom: 60px;
-    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 }
 
 .game-card {
     background-color: #111111;
-    height: fit-content;
-    width: 436px;
+    height: 550px;
+    width: 600px;
     padding: 30px;
 }
 

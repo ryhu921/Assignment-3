@@ -5,6 +5,11 @@ main{
     margin-bottom: 130px;
 } 
 
+.product-page-main{
+    margin-top: 0;
+    position: relative;
+}
+
 .con{
     max-width: 100vw;
     padding: 30px;
@@ -67,4 +72,12 @@ main{
 .icon-size{
     width: 30px;
     height: 30px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
 }
