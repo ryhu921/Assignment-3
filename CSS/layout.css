@@ -51,6 +51,14 @@ main{
     margin-top: 10vh;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 /*check out page*/
 .checkout-heading{
     margin-top: 80px;

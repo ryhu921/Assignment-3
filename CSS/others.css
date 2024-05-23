@@ -35,6 +35,10 @@
     background-image: url(../assets/product-page-1/a-plague-tale-innocence-background.png);
 }
 
+.scroll-status-product{
+    gap: 1.5vw;
+}
+
 /* check out page*/
 
 #checkbox{
