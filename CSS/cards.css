@@ -379,3 +379,20 @@
     width: 100%;
     justify-content: space-between;
 }
+
+.product-video-section{
+    margin-top: 110vh;
+    width: 100vw;
+    height: fit-content;
+}
+
+.product-description-section{
+    background-color: #111111;
+    height: fit-content;
+    width: 100%;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
