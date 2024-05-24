@@ -81,3 +81,11 @@ footer{
     opacity: 50%;
     margin: 0 5vw;
 }
+
+
+
+/* order confirmation page */
+
+#confirmation-footer{
+    position: fixed;
+}

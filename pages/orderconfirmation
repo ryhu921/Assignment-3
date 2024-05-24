@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/color.css">
+    <link rel="stylesheet" href="../css/input.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/others.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <div id="navcon1">
+                <img src="../assets/hamburger.svg">
+                <img src="../assets/gdgames.svg">   
+            </div>  
+            <div id="navcon2">       
+                <form>
+                    <div class="search">
+                        <span><img src="../assets/search.svg"></span>
+                        <input type="search" class="search-input">
+                    </div>
+                </form>
+            </div>
+            <div id="navcon3">
+                <div id="currency" class="audfont">$AUD
+                    <img src="../assets/arrow.svg">
+                </div>
+                <img src="../assets/user.svg">
+                <img src="../assets/wishlist.svg">
+                <img src="../assets/basket.svg">
+            </div>  
+        </div>
+    </nav> 
+
+    <main>
+        <div class="flex-col center margin-top">
+            <img class="margin-bottom" src="../assets/order-confirmation/tick.svg" alt="tick">
+            <p class="align-center inter-regular-18 row-width-long">Thank you! </p>
+            <p class="align-center inter-regular-18 row-width-long margin-bottom-large">We have received your order. A confirmation email will be sent to you shortly. You order is now being processed.</p>
+            <button class="btn btn-savecontinue">Continue Shopping</button>
+        </div>
+    </main>
+
+    
+    <!-- footer section -->
+
+    <footer id="confirmation-footer">
+        <div class="footercon">
+            <div class="footer-section1">
+                <h1 id="subscribe" class="inter-bold-30">Stay in the Loop</h1>
+                <div class="signup-bar">
+                    <form><input type="text" class="subscribe-input"></form>
+                    <button class="btn signup">Sign Up</button>
+                </div>
+                <div class="check">
+                    <input id="checkbox" type="checkbox">
+                    <span class="inter-medium-12">I agree to subscribe to updates from GD Games</span>   
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="footer-section2 flex-col">
+                <div class="footer-links flex-row">
+                    <a href="">About Us</a>
+                    <a href="">Delivery</a>
+                    <a href="">Refund Policy</a>
+                    <a href="">Return</a>
+                    <a href="">Terms of Service</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Site Map</a>
+                </div>
+                    <div class="social-and-copyright flex-row align-bottom">
+                        <div class="social-media">
+                            <a href=""><img src="../assets/twitter.svg" alt="twitter logo"></a>
+                            <a href="https://www.facebook.com/gooddealsgames/" target="_blank"><img src="../assets/facebook.svg" alt="twitter logo"></a>
+                            <a href=""><img src="../assets/pinterest.svg" alt="twitter logo"></a>
+                            <a href=""><img src="../assets/instagram.svg" alt="twitter logo"></a>
+                            <a href=""><img src="../assets/tumblr.svg" alt="twitter logo"></a>
+                            <a href=""><img src="../assets/vimeo.svg" alt="twitter logo"></a>
+                        </div>
+                        <div class="copyright flex-row vert-center">
+                            <img src="../assets/copyright.svg" alt="copyrightlogo">
+                            <span class="footer-copyright">2024 GD Games. All rights reserved. Powered by GDGAMES</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </footer>
+</body>

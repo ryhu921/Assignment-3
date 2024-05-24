@@ -409,3 +409,12 @@
 .align-center{
     text-align: center;
 }
+
+
+/* order confirmation page */
+
+.inter-regular-18{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #f5f5f5;
+}
