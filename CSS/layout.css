@@ -125,3 +125,12 @@ main{
 .margin-bottom-small{
     margin-bottom: 20px;
 }
+
+.margin-bottom-large{
+    margin-bottom: 50px;
+}
+
+
+.section-margin-top{
+    margin-top: 100px;
+}

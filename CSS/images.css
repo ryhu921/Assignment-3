@@ -7,6 +7,15 @@
     background-repeat: no-repeat;
 }
 
+.main-product-section-2{
+    background-image: url(../assets/product-page-2/a-plague-tale-requiem-background.png);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .product-page-image-1{
     height: 420px;
     margin-bottom: 60px;

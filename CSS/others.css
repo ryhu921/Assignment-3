@@ -72,3 +72,9 @@
     height: 80px;
     display: flex;
 }
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 80% !important;
+    height: 40% !important;
+}
