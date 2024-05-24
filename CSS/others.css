@@ -1,12 +1,12 @@
 .redline{
-    width: 6vw;
+    width: 100px;
     height: 5px;
     background-color: #db0703;
     margin-bottom: 10px;
 }
 
 .redline-large{
-    width: 13vw;
+    width: 190px;
     height: 10px;
     background-color: #db0703;
     margin-bottom: 10px;

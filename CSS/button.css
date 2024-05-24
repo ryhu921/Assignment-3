@@ -64,7 +64,7 @@
     width: 33vw;
     height: 65px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .btn-add-to-wish-list{
@@ -73,7 +73,7 @@
     font-size: 20px;
     background: transparent;
     border: #DB0703 2px solid;
-    margin-bottom: 30px;
+    margin-bottom: 3vh;
 }
 
 /* check out page*/

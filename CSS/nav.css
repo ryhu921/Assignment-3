@@ -35,6 +35,7 @@ nav{
     justify-content: space-between;
     margin-right: auto;
     width: 21vw;
+    gap: 2vw;
 }
 
 #navcon2{
