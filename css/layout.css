@@ -10,6 +10,14 @@ main{
     position: relative;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
+.max-margin-bottom{
+    margin-bottom: auto;
+}
+
 .con{
     max-width: 100vw;
     padding: 30px;
@@ -36,7 +44,7 @@ main{
 }
 
 .align-bottom{
-    align-items: baseline;
+    align-items: flex-end;
 }
 
 .align-right{
