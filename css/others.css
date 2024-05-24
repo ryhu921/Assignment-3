@@ -39,6 +39,14 @@
     gap: 1.5vw;
 }
 
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 80% !important;
+    height: 40% !important;
+}
+
+
 /* check out page*/
 
 #checkbox{
@@ -49,7 +57,7 @@
 
 .red-rectangle{
     padding: 3%;
-    width: 575px;
+    width: 40vw;
     height: 101px;
     border-style: solid;
     border-color: #db0703;
@@ -68,13 +76,41 @@
 
 .rect-regular{
     padding: 3%;
-    width: 555px;
-    height: 80px;
+    width: 40vw;
+    height: 93px;
     display: flex;
 }
 
-iframe {
-    aspect-ratio: 16 / 9;
-    width: 80% !important;
-    height: 40% !important;
+
+.greyline{
+    margin-top: 20px;
+    width: 38vw;
+    height: 1px;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+
+
+
+/* order summary page */
+.white-rectangle{
+    padding: 3%;
+    border-style: solid;
+    border-color: #f5f5f5;
+    display: flex;
+    width: 30vw;
+    height:230px;
+    border-radius:2%;
+}
+
+.greyline-short{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 28vw;
+    height: 1px;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.terms-and-condition{
+    width: 30vw;
 }

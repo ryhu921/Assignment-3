@@ -368,9 +368,6 @@
 }
 
 
-
-/* check out page */
-
 .inter-semibold-12{
     font-family: "Inter", sans-serif;
     font-size: 12px;
@@ -390,4 +387,25 @@
     font-size: 24px;
     color: #f5f5f5;
     font-weight: bold;
+}
+
+
+
+/* order summary page */
+
+.inter-regular-30{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #f5f5f5;
+}
+
+
+.inter-regular-12{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #f5f5f5;
+}
+
+.align-center{
+    text-align: center;
 }

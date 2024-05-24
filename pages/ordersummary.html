@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/color.css">
+    <link rel="stylesheet" href="../css/input.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/others.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <div id="navcon1">
+                <img src="../assets/hamburger.svg">
+                <img src="../assets/gdgames.svg">   
+            </div>  
+            <div id="navcon2">       
+                <form>
+                    <div class="search">
+                        <span><img src="../assets/search.svg"></span>
+                        <input type="search" class="search-input">
+                    </div>
+                </form>
+            </div>
+            <div id="navcon3">
+                <div id="currency" class="audfont">$AUD
+                    <img src="../assets/arrow.svg">
+                </div>
+                <img src="../assets/user.svg">
+                <img src="../assets/wishlist.svg">
+                <img src="../assets/basket.svg">
+            </div>  
+        </div>
+    </nav>  
+
+    <main>
+        <div class="flex-col center summary-heading">
+            <div class="redline"></div>
+            <h1 class="main-heading-large">Order Summary</h1>
+        </div>
+        <div class="flex-row horizontal-center spacing">
+            <!-- left half -->
+            <div class="flex-col">
+                <div class="flex-col white-rectangle" id="customer-info">
+                    <div class="flex-row row-width-short">
+                        <p class="inter-regular-30">Atie Asadikia</p>
+                        <img class="push-to-right" src="../assets/order-summary/pencil.svg" alt="pencil">
+                    </div>
+                    <div class="greyline-short"></div>
+                    <div>
+                        <p class="inter-regular-16">atie.asadikia@unimelb.edu.au</p>
+                    </div>
+                    <div class="greyline-short"></div>
+                    <div class="flex-col spacing-small">
+                        <p class="inter-regular-16">04 123 456 78</p>
+                        <p class="inter-regular-16">123 Happy Street, Melbourne 3000, VIC, Australia</p>
+                    </div>
+                </div>
+                <!-- confirm button and terms and condition-->
+                <div class="flex-col center checkout-heading spacing-small">
+                    <button class="btn btn-savecontinue">Confirm and Place Order</button>
+                    <div class="terms-and-condition">
+                        <p class="inter-regular-12 align-center">By placing the order, you confirm that you have read, understand and accept our terms & conditions and privacy policy.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- right half -->
+            <div class="flex-col spacing-medium">
+                <!-- a plague tale innocence -->
+                <div class="flex-row spacing-small">
+                    <div><img class="image-size" src="../assets/product-list/a-plague-tale-innocence.png" alt="a-plague-tale-innocence"></div>
+                    <div class="flex-col spacing row-width">
+                        <div class="flex-row vert-center spacing-small">
+                            <p class="inter-medium-18">A Plague Tale: Innocence</p>
+                            <img class="push-to-right"src="../assets/check-out/trash.svg" alt="trash">
+                        </div>
+                        <div class="flex-row vert-center spacing-small">
+                            <p class="inter-medium-16">QTY: 1</p>
+                            <p class="inter-medium-18 push-to-right">$49.00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- a plague tale requiem -->
+                <div class="flex-row spacing-small">
+                    <div><img class="image-size" src="../assets/product-list/a-plague-tale-requiem.png" alt="a-plague-tale-requiem"></div>
+                    <div class="flex-col spacing row-width">
+                        <div class="flex-row vert-center spacing-small">
+                            <p class="inter-medium-18">A Plague Tale: Requiem</p>
+                            <img class="push-to-right" src="../assets/check-out/trash.svg" alt="trash">
+                        </div>
+                        <div class="flex-row vert-center spacing-small">
+                            <p class="inter-medium-16">QTY: 1</p>
+                            <p class="inter-medium-18 push-to-right">$44.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../assets/check-out/greyline.svg" alt="greyline">
+                </div> 
+                <!--subtotal and shipping -->
+                <div class="flex-col spacing-small">
+                    <div class="flex-row">
+                        <p class="inter-semibold-16">Subtotal (inc GST)</p>
+                        <p class="push-to-right inter-medium-16">$93.00</p>
+                    </div>
+                    <div class="flex-row">
+                        <p class="inter-semibold-16">Shipping</p>
+                        <p class="push-to-right inter-medium-16">Free</p>
+                    </div>
+                </div>
+                <!--total amount -->
+                <div class="flex-row vert-center">
+                    <p class="inter-bold-24">Total Amount</p>
+                    <p class="inter-bold-24 push-to-right">$93.00</p>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </main>
+</body>

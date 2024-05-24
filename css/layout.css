@@ -134,3 +134,16 @@ main{
 .section-margin-top{
     margin-top: 100px;
 }
+
+
+
+/* order summary page */
+
+.row-width-long{
+    width: 390px;
+}
+
+.summary-heading{
+    margin-top:180px;
+    margin-bottom: 50px;
+}
