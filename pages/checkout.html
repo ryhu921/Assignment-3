@@ -24,7 +24,7 @@
         <div id="navbar">
             <div id="navcon1">
                 <img src="../assets/hamburger.svg">
-                <img src="../assets/gdgames.svg">   
+                <img onclick="location.href='../index.html'" class="onhover" src="../assets/gdgames.svg">  
             </div>  
             <div id="navcon2">       
                 <form>
@@ -191,7 +191,7 @@
                         <div class="redline"></div>
                         <h1 class="product-shipping">Shipping Method</h1>
                     </div>
-                    <div class="flex-col spacing-small red-rectangle">
+                    <div class="onhover flex-col spacing-small red-rectangle">
                         <div class="flex-row spacing-small">
                             <img src="../assets/check-out/selected-ellipse.svg" alt="selected-ellipse">
                             <p class="inter-semibold-16">Standard Delivery</p>
@@ -200,7 +200,7 @@
                             <p class="inter-semibold-12">Free; deliver within 4-6 business days</p>
                         </div>
                     </div>
-                    <div class="flex-col spacing-small red-rectangle unselected-rect">
+                    <div class="onhover flex-col spacing-small red-rectangle unselected-rect">
                         <div class="flex-row spacing-small">
                             <img src="../assets/check-out/ellipse.svg" alt="ellipse">
                             <p class="inter-semibold-16">Express Delivery</p>
@@ -248,7 +248,7 @@
                                      </div>
                                     <form>
                                         <div class="info-input payment-method">
-                                            <input type="text" class="info">
+                                            <input type="text" class="info" placeholder="MM/YY">
                                         </div>
                                     </form>
                                 </div>
@@ -259,7 +259,7 @@
                                      </div>
                                     <form>
                                         <div class="info-input payment-method">
-                                            <input type="text" class="info">
+                                            <input type="text" class="info" placeholder="CVV">
                                         </div>
                                     </form>
                                 </div>
