@@ -3,7 +3,7 @@ nav{
     height: 127px;
     display: flex;
     position: fixed;
-    overflow: hidden;
+    overflow: visible;
     top: 0;
     align-items: center;
     justify-content: center;
@@ -63,12 +63,27 @@ nav{
 
 /* searchbar drop down list */
 
-.search-suggest{
-    background-color: #f5f5f5;
-    border: 1px solid;
-    margin: 0;
-    padding: 0;
-    height: 150px;
-    overflow: auto;
+.fold{
+    display: none;
+}
+
+#suggestions-list{
     position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    margin: 0;
+    list-style: none;   
+}
+
+#suggestions-list li{
+    padding: 15px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+#suggestions-list li:hover {
+    background-color: rgba(221, 220, 220, 0.5);
 }
