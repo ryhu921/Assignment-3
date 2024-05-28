@@ -18,3 +18,16 @@ function redirect(key){
        location.href = 'pages/productlist.html';
     };
 };
+
+// Shopping Cart
+
+const openBtn = document.getElementById('open-cart');
+const cart = document.getElementById('shopping-cart');
+
+openBtn.addEventListener('click', openCart);
+
+    //openCart
+
+function openCart() {
+    cart.classList.add('shopping-cart open')
+};

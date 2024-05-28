@@ -87,3 +87,12 @@ nav{
 #suggestions-list li:hover {
     background-color: rgba(221, 220, 220, 0.5);
 }
+
+#open-cart{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

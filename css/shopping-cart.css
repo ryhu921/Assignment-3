@@ -6,6 +6,11 @@
     width: 50vw;
     background-color: #F5F5F5;
     z-index: 999;
+    transform: translate(110%);
+}
+
+.shopping-cart.open{
+    transform: translate(0);
 }
 
 .cart-content{
@@ -71,6 +76,11 @@
     gap: 2vw;
     padding: 10px;
     border: 1px solid #111111;
+}
+
+.quantity img{
+    cursor: pointer;
+    user-select: none;
 }
 
 .item-details p:nth-child(2){

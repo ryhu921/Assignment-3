@@ -6,6 +6,11 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
     cursor: pointer;
+
+}
+
+button:hover{
+    opacity: 0.8;
 }
 
 .btn-hero{
