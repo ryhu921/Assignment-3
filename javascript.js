@@ -29,5 +29,5 @@ openBtn.addEventListener('click', openCart);
     //openCart
 
 function openCart() {
-    cart.classList.add('shopping-cart open')
+    cart.classList.add('open')
 };
