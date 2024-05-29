@@ -17,9 +17,89 @@
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/cards.css">
     <link rel="stylesheet" href="../css/others.css">
+    <link rel="stylesheet" href="../css/shopping-cart.css">
     <title>Document</title>
 </head>
 <body>
+
+<!--Shopping Cart-->
+
+    <!-- backdrop -->
+    <div class="backdrop"></div>
+
+<div id="shopping-cart" class="shopping-cart">
+    <div class="cart-content flex-col">
+        <p class="cart-header shopping-cart-title">Cart</p>
+        <div class="cart-items">
+            <!--Cart Item 1-->
+            <div id="cart-item1" class="cart-item none">
+                <div class="item-img">
+                    <img src="../assets/product-list/a-plague-tale-innocence.png" alt="a-plague-tale-innocence">
+                </div>
+                <div class="item-details shopping-cart-game flex-col">
+                    <div class="flex-row space-between max-margin-bottom vert-center">
+                        <p>A Plague Tale: Innocence</p>
+                        <div class="remove-item">
+                            <button id="trash-can1"><img src="../assets/shopping-cart/trashcan-icon.svg" alt="trashcan-icon"></button>
+                        </div>
+                    </div>
+                    <div class="flex-row space-between align-bottom">
+                        <div class="quantity">
+                             <button onclick="removeitem()"><img src="../assets/shopping-cart/minus-icon.svg" alt="minus-icon"></button>
+                            <span id="item-1-quant">
+                                1
+                            </span>
+                            <button onclick="additem()" id="add_item"><img src="../assets/shopping-cart/add-icon.svg" alt="add-icon"></button>
+            
+                        </div>
+                        <div><span>$</span><span id="item1-price">49.00</span></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Cart Item 1-->
+
+            <!--Cart Item 2-->
+            <div id="cart-item2" class="cart-item none">
+                <div class="item-img">
+                    <img src="../assets/product-list/a-plague-tale-requiem.png" alt="a-plague-tale-requiem">
+                </div>
+                <div class="item-details shopping-cart-game flex-col">
+                    <div class="flex-row space-between max-margin-bottom vert-center">
+                        <p>A Plague Tale: Requiem</p>
+                        <div class="remove-item">
+                            <button id="trash-can2"><img src="../assets/shopping-cart/trashcan-icon.svg" alt="trashcan-icon"></button>
+                        </div>
+                    </div>
+                    <div class="flex-row space-between align-bottom">
+                        <div class="quantity">
+                            <button><img src="../assets/shopping-cart/minus-icon.svg" alt="minus-icon" onclick="removeitem2()"></button>
+                            <span id="item-2-quant">1</span>
+                            <button><img src="../assets/shopping-cart/add-icon.svg" alt="add-icon" onclick="additem2()"></button>
+                        </div>
+                        <div><span>$</span><span id="item2-price">44.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <!--Cart Item 2-->
+
+        </div>
+        <div class="cart-action box-shadow">
+            <div class="subtotal-section flex-row">
+                <p class="subtotal">Subtotal (inc GST)</p>
+                <p class="subtotal">$<span id="subtotal-price">93.00</span></p>
+            </div>
+            <div class="cart-buttons flex-row">
+                <button id="close-cart" class="btn continue-shopping">Continue Shopping</button>
+                <button class="btn checkout">Check Out</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Nav bar -->
     <nav>
         <div id="navbar">
             <div id="navcon1">

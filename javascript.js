@@ -1,42 +1,3 @@
-const ITEMS = [
-    {
-        id: 1,
-        name: 'A Plague Tale: Innocence',
-        price: 49,
-        image: 'assets/product-list/a-plague-tale-innocence.png',
-        qty: 1,
-    },
-    {
-        id: 2,
-        name: 'A Plague Tale: Requiem',
-        price: 44,
-        image: 'assets/product-list/a-plague-tale-requiem.png',
-        qty: 1,
-    },
-]
-
-const cartItems = document.querySelector('.cart-items')
-
-const cart_data = [ {
-    id: 1,
-    name: 'A Plague Tale: Innocence',
-    price: 49,
-    image: 'assets/product-list/a-plague-tale-innocence.png',
-    qty: 1,
-},]
-
-renderCartItems()
-
-function renderCartItems() {
-    cart_data.forEach(item => {
-        const cartItem = document.createElement('div')
-        cartItem.classList.add('cart_item')
-        cartItem.innerHTML = '<div class="item-img"><img src="assets/product-list/a-plague-tale-innocence.png" alt="a-plague-tale-innocence"></div><div class="item-details shopping-cart-game flex-col"><div class="flex-row space-between max-margin-bottom vert-center"><p>A Plague Tale: Innocence</p><div class="remove-item"><img src="assets/shopping-cart/trashcan-icon.svg" alt="trashcan-icon"></div></div><div class="flex-row space-between align-bottom"><div class="quantity"><img src="assets/shopping-cart/minus-icon.svg" alt="minus-icon"><span>1</span><img src="assets/shopping-cart/add-icon.svg" alt="add-icon"></div><p>$49.00</p></div></div>'
-
-        // cartItems.appendChild(cartItem)
-    })
-}
-
 
 //open and closing cart
 
@@ -76,6 +37,78 @@ function closeCart() {
 }
 
 
+// Item Quantity
+
+let count = parseInt(localStorage.getItem('count')) || 1;
+let count_2 = parseInt(localStorage.getItem('count_2')) || 1;
+
+const item1BasePrice = 49.00;
+const item2BasePrice = 44.00;
+
+function updateCounter() {
+document.getElementById('item-1-quant').innerText = count;
+localStorage.setItem('count', count);
+}
+
+function updatePrice1() {
+const totalPrice1 = item1BasePrice * count;
+document.getElementById('item1-price').innerText = totalPrice1.toFixed(2);
+return totalPrice1;
+}
+
+function updateCounter2() {
+document.getElementById('item-2-quant').innerText = count_2;
+localStorage.setItem('count_2', count_2);
+}
+
+function updatePrice2() {
+const totalPrice2 = item2BasePrice * count_2;
+document.getElementById('item2-price').innerText = totalPrice2.toFixed(2);
+return totalPrice2;
+}
+
+function updateTotal() {
+const totalPrice1 = updatePrice1();
+const totalPrice2 = updatePrice2();
+const totalPriceFinal = totalPrice1 + totalPrice2;
+document.getElementById('subtotal-price').innerText = totalPriceFinal.toFixed(2);
+localStorage.setItem('totalPriceFinal', totalPriceFinal);
+}
+
+function additem() {
+count++;
+updateCounter();
+updateTotal();
+}
+
+function additem2() {
+count_2++;
+updateCounter2();
+updateTotal();
+}
+
+function removeitem() {
+if (count >= 2) {
+count--;
+updateCounter();
+updateTotal();
+}
+}
+
+function removeitem2() {
+if (count_2 >= 2) {
+count_2--;
+updateCounter2();
+updateTotal();
+}
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+updateCounter();
+updateCounter2();
+updateTotal();
+});
+
 
 // search bar
 
@@ -98,3 +131,37 @@ function redirect(key) {
         location.href = 'pages/productlist.html';
     }
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const adding = document.getElementById('add-to-cart1');
+    const removing = document.getElementById('trash-can1');
+    
+    const cart = document.getElementById('cart-item1');
+
+    // Check if the item is already added or removed from the cart
+    const itemAdded = localStorage.getItem('itemAdded');
+    const itemRemoved = localStorage.getItem('itemRemoved');
+
+    // Show or hide the cart based on the item's state
+    if (itemAdded === 'true') {
+        cart.classList.remove('none');
+    } else if (itemRemoved === 'true') {
+        cart.classList.add('none');
+    }
+
+    // Adding an item to the cart
+    adding.addEventListener('click', () => {
+        cart.classList.remove('none');
+        localStorage.setItem('itemAdded', 'true');
+        localStorage.removeItem('itemRemoved'); // Remove 'itemRemoved' flag if an item is added back
+    });
+
+    // Removing an item from the cart
+    removing.addEventListener('click', () => {
+        cart.classList.add('none');
+        localStorage.setItem('itemRemoved', 'true');
+        localStorage.removeItem('itemAdded'); // Remove 'itemAdded' flag if an item is removed
+    });
+});
+
+

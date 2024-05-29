@@ -84,6 +84,11 @@
     user-select: none;
 }
 
+.quantity button{
+    border: none;
+    background-color: transparent;
+}
+
 .item-details p:nth-child(2){
 
 }
@@ -108,4 +113,13 @@
 .backdrop.show{
     display: block;
     opacity: 1;
+}
+
+.none{
+    display: none;
+}
+
+.remove-item button{
+    background-color: transparent;
+    border: none;
 }
