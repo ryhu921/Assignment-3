@@ -34,7 +34,8 @@ footer{
 .social-media{
     display: flex;
     flex-direction: row;
-    gap: 2.5vw;
+    justify-content: space-between;
+    width: 22vw;
     margin-right: auto;
 }
 
@@ -80,6 +81,10 @@ footer{
     background-color: #f5f5f5;
     opacity: 50%;
     margin: 0 5vw;
+}
+
+.copyright img{
+    margin-right: 10px;
 }
 
 
