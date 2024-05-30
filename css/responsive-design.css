@@ -1,3 +1,29 @@
+/* general */
+
+@media screen and (max-width: 390px) {
+    .redline{
+        width: 60px;
+        height: 4px;
+        margin-bottom: 5px;
+    }
+
+    .redline-large{
+        width: 60px;
+        height: 4px;
+        margin-bottom: 5px;
+    }
+
+    .main-heading-large{
+        font-size: 40px;
+    }
+
+    .extension{
+        display: none;
+    }
+
+
+}
+
 /* nav bar */
 
 @media screen and (max-width: 390px) {
@@ -97,6 +123,47 @@
         display: none;
     }
 
+}
+
+
+/* category */
+
+@media screen and (max-width: 390px) {
+    .categories{
+        gap: 10px;
+    }
+
+
+    .playstation5{
+        height: 200px;
+    }
+
+    .ps5-description{
+        margin-bottom: 15px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .xbox-nintendo{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .xbox{
+        width: 100vw;
+        height: 200px;
+    }
+
+    .nintendoswtich{
+        width: 100vw;
+        height: 200px;
+    }
+
+    .category-description-small{
+        margin-bottom: 15px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
 }
 
 /* blog */
