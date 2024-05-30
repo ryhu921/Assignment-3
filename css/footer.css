@@ -1,6 +1,6 @@
 footer{
     bottom: 0px;
-    width: 100%;
+    width: 100vw;
     height: 24vh;
     display: flex;
     flex-direction: row;
@@ -11,7 +11,7 @@ footer{
     max-height: fit-content;
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     padding: 30px;
 }
 

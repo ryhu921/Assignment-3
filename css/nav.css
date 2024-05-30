@@ -8,6 +8,11 @@ nav{
     align-items: center;
     justify-content: center;
     max-width: 100vw;
+    background-color: #111111;
+    justify-content: space-between;
+    gap: 2.5vw;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #navbar{
@@ -25,6 +30,28 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: auto;
+}
+
+#hamburger-menu{
+    margin-right: 3vw;
+}
+
+.navcon1{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    align-items: center;
+    width: 100%;
+}
+
+.navcon2{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: fit-content;
 }
 
 #navcon1{
