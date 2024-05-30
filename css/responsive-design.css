@@ -21,6 +21,9 @@
         display: none;
     }
 
+    .btn-main{
+        width: 93vw;
+    }
 
 }
 
@@ -129,6 +132,10 @@
 /* category */
 
 @media screen and (max-width: 390px) {
+    .on-sale{
+        margin-top: 50px;
+    }
+    
     .categories{
         gap: 10px;
     }
@@ -165,6 +172,83 @@
         font-size: 20px;
     }
 }
+
+
+/* on sale */
+@media screen and (max-width: 390px){
+    .on-sale-games{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 25px;
+        gap: 10px;
+    }
+
+    .onsale-gamecard{
+        width: 93vw;
+    }
+
+    .on-sale-description{
+        margin-top: 215px;
+        margin-left: 15px;
+    }
+
+    .assassins-creed{
+        width: 93vw;
+        height: 300px;
+    }
+
+    .battlefield{
+        width: 93vw;
+        height: 300px;
+    }
+    
+    .overcooked{
+        width: 93vw;
+        height: 300px;
+    }
+    
+    .humans-fall-flat{
+        width: 93vw;
+        height: 300px;
+    }
+    
+    .ac-vahalla{
+        width: 93vw;
+        height: 300px;
+    }
+    
+    .demon-slayer{
+        width: 93vw;
+        height: 300px;
+    }
+
+    .onsale-subpricing{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .onsale-pricing{
+        margin-left: 0px;
+    }
+
+    .card-price{
+        height: fit-content;
+        padding: 15px;
+    }
+
+    .assassins-creed :nth-child(1){
+        width: 60vw;
+    }
+
+    .humans-fall-flat :nth-child(1){
+        width: 60vw;
+    }
+
+    .categorycon button{
+        margin-top: 25px;
+    }
+}
+
 
 /* blog */
 

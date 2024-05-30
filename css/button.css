@@ -98,6 +98,10 @@ button:hover{
     font-weight: 600;
 }
 
+.categorycon button{
+    margin-top: 50px;
+}
+
 /* check out page*/
 .btn-savecontinue{
     width: 30vw;
