@@ -101,29 +101,34 @@
 
 <!-- Nav bar -->
     <nav>
-        <div id="navbar">
-            <div id="navcon1">
-                <img src="../assets/hamburger.svg">                
-                <img onclick="location.href='../index.html'" class="onhover" src="../assets/gdgames.svg">                                
-            </div>  
-            <div id="navcon2">       
-                <form>
-                    <div class="search">
-                        <span><img src="../assets/search.svg"></span>
-                        <input type="search" class="search-input">
-                    </div>
-                </form>
-            </div>
-            <div id="navcon3">
-                <div id="currency" class="audfont">$AUD
-                    <img src="../assets/arrow.svg">
+            
+        <a href="#"><img id="hamburger-menu" src="../assets/hamburger.svg"></a>
+        <a href="#"><img id="logo" src="../assets/gdgames.svg"></a>
+        <div class="navcon2">
+            <form>
+                <div class="search">
+                    <span><img src="../assets/search.svg"></span>
+                    <input type="search" class="search-input" onfocus="expandList()" onblur="foldList()" onkeydown="redirect(key)">
+                    <ul id="suggestions-list" class="fold">
+                        <a href="../pages/productlist.html"> <li onclick="getKeyword('Playstation 5')">Playstation 5</li></a>
+                        <li onclick="getKeyword('Playstation 4')">Playstation 4</li>
+                        <li onclick="getKeyword('Nintendo Switch')">Nintendo Switch</li>
+                        <li onclick="getKeyword('Xbox')">Xbox</li>
+                    </ul>
                 </div>
-                <img src="../assets/user.svg">
-                <img src="../assets/wishlist.svg">
-                <img src="../assets/basket.svg">
-            </div>  
+            </form>
         </div>
+        <div id="currency" class="audfont">$AUD
+            <img id="currency-arrow-icon" src="../assets/arrow.svg">
+        </div>
+        <a href="#"><img id="user-icon" src="../assets/user.svg"></a>
+        <a href="#"><img id="wishlist-icon" src="../assets/wishlist.svg"></a>
+        <button id="open-cart">
+            <img id="cart-icon" src="../assets/basket.svg">
+        </button>
+    
     </nav>
+
 
     <main>
 <!-- first row -->
