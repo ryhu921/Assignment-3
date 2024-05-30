@@ -135,17 +135,27 @@ function redirect(key) {
 // Function to save the state of cart items to localStorage
 function saveCartState() {
     const cartItem1 = document.getElementById('cart-item1');
+    const cartItem2 = document.getElementById('cart-item2');
     localStorage.setItem('cartItem1Visible', !cartItem1.classList.contains('none'));
+    localStorage.setItem('cartItem2Visible', !cartItem2.classList.contains('none'));
 }
 
 // Function to load the state of cart items from localStorage
 function loadCartState() {
     const cartItem1Visible = localStorage.getItem('cartItem1Visible') === 'true';
+    const cartItem2Visible = localStorage.getItem('cartItem2Visible') === 'true';
     const cartItem1 = document.getElementById('cart-item1');
+    const cartItem2 = document.getElementById('cart-item2');
     if (cartItem1Visible) {
         cartItem1.classList.remove('none');
     } else {
         cartItem1.classList.add('none');
+    }
+
+    if (cartItem2Visible) {
+        cartItem2.classList.remove('none');
+    } else {
+        cartItem2.classList.add('none');
     }
 }
 
@@ -171,6 +181,33 @@ function add_item1() {
 
 function remove_item1() {
     const cart = document.getElementById('cart-item1');
+    cart.classList.add('none');
+    saveCartState();
+    updateTotal();
+}
+
+// Adding and removing item from cart
+document.addEventListener('DOMContentLoaded', (event) => {
+    const adding2 = document.getElementById('add-to-cart2');
+    const removing2 = document.getElementById('trash-can2');
+
+    adding2.addEventListener('click', add_item2);
+    removing2.addEventListener('click', remove_item2);
+
+    // Load the cart state on page load
+    loadCartState();
+    updateTotal();  // Ensure the total is updated based on the loaded state
+});
+
+function add_item2() {
+    const cart = document.getElementById('cart-item2');
+    cart.classList.remove('none');
+    saveCartState();
+    updateTotal();
+}
+
+function remove_item2() {
+    const cart = document.getElementById('cart-item2');
     cart.classList.add('none');
     saveCartState();
     updateTotal();
