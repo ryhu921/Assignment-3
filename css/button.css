@@ -15,9 +15,7 @@ button:hover{
 
 .btn-hero{
     width: 31vw;
-    height: 42px;
-    background-image: url(assets/hero.png);
-    background-size: cover;
+    height: 42px;;
     font-size: 20px;
 }
 

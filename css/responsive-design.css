@@ -54,6 +54,50 @@
     }
 }
 
+/* hero */
+
+@media screen and (max-width: 390px) {
+    main{
+        margin-top: 200px;
+    }
+
+    .herocon{
+        height: 70vh;
+        background-image: url(../assets/hero-small.png);
+    }
+
+    .heroitems h1{
+        font-size: 30px;
+    }
+
+    .heroitems{
+        margin-top: 410px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .heroitems button{
+        width: 100%;
+    }
+
+    .scroll-tab-hero{
+        justify-content: center;
+    }
+
+    .scroll-status-hero{
+        width: 45%;
+        justify-content: space-between;
+    }
+
+    #right-arrow-hero{
+        display: none;
+    }
+
+    #left-arrow-hero{
+        display: none;
+    }
+
+}
 
 /* blog */
 
