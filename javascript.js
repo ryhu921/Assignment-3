@@ -124,6 +124,7 @@ function foldList() {
 
 function getKeyword(keyword) {
     document.querySelector(".search-input").value = keyword;
+    
 }
 
 function redirect(key) {
@@ -132,6 +133,9 @@ function redirect(key) {
     }
 }
 
+
+
+//removing item from cart
 document.addEventListener('DOMContentLoaded', (event) => {
     const adding = document.getElementById('add-to-cart1');
     const removing = document.getElementById('trash-can1');
