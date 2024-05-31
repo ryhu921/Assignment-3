@@ -273,6 +273,7 @@
     height: fit-content;
     width: 600px;
     padding: 30px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
 .game-card-img{
@@ -367,7 +368,7 @@
     flex-direction: column;
 }
 
-/* product page 1 */
+/* product page */
 
 .product-information{
     width: 100vw;
@@ -378,6 +379,7 @@
     padding-bottom: 6vh;
     justify-content: center;
     gap: 15vw;
+    box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.3);
 }
 
 .product-image-scroll{

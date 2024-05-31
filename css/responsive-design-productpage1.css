@@ -3,7 +3,6 @@
 @media screen and (max-width: 390px) {
 
     main{
-        margin-top: 200px;
         margin-bottom: 50px;
     }
 
@@ -161,71 +160,113 @@
     }
 }
 
-/* productlist buttons */
+/* main section */
 
-@media screen and (max-width: 390px) {
-    .productlist-buttons{
-        margin: 0;
-        padding: 0px 15px;
-        gap: 10px;
+@media screen and (max-width: 390px){
+
+    .main-product-section-1{
+        height: 638px;
     }
 
-    .productlist-buttons button{
+
+    .browsing-history{
+        margin-top: 190px;
+        margin-left: 15px;
+    }
+
+    .product-tracking-history{
+        font-size: 14px;
+    }
+
+    .product-information{
+        flex-direction: column;
+        padding: 390px 15px 20px 15px;
+        gap: 30px;
+    }
+
+    .product-page-image-1{
+        margin-bottom: 35px;
+    }
+
+    .product-subheading{
+        font-size: 14px;
+    }
+
+    .product-title{
+        font-size: 25px;
+    }
+
+    .btn-add-to-cart{
         width: 100%;
-        margin: 0;
-        height: 50px;
     }
 
-    .btn-clearall{
-        display: none;
+    .btn-add-to-wish-list{
+        width: 100%;
+        margin-bottom: 50px;
     }
 }
 
-/* product list */
+/* video section */
 
 @media screen and (max-width: 390px) {
-    .productlist-container .product-row:nth-child(3),
-    .productlist-container .product-row:nth-child(4) {
-        display: none;
+    .product-video-section {
+        margin-top: 1320px;
     }
 
-    .productlist-container{
-        margin: 30px 0px;
+    iframe {
+        width: 90% !important;
+        height: 50% !important;
     }
 
-    .product-row{
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 0;
-        padding: 0px 15px;
-        gap: 10px;
-        margin-bottom: 10px;
+}
+
+/* Description Section */
+@media screen and (max-width: 390px){
+    .product-description-section{
+        margin-top: 50px;
+        padding: 30px 15px;
     }
 
-    .blackblock{
-     width: 100%;
-     padding: 15px;
-     height: 300px;
-    }
-
-    .product-image{
-        padding: 0px 0px 15px 0px;
-    }
-
-    .product-name{
-        padding: 0;
-    }
-
-    .product-price{
-        margin: 0;
-        margin-top: auto;
-    }
-
-    .image-size{
-        width: 100%;
+    .product-description-body{
+        font-size: 14px;
+        text-align: justify;
     }
 }
+
+/* you may also like section */
+
+@media screen and (max-width: 390px){
+
+    .you-may-also-like-section{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .latest-games{
+        margin-top: 50px;
+    }
+
+    .game-cards-row{
+        margin-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .game-card{
+        padding: 15px;
+    }
+
+    .game-card-img{
+        height: 200px;
+    }
+
+    .latest-game-category{
+        font-size: 12px;
+    }
+}
+
 
 /* Footer */
 
