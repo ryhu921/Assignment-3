@@ -111,3 +111,10 @@ iframe {
 .terms-and-condition{
     width: 30vw;
 }
+
+
+
+/* cursor effect */
+.cursor{
+    cursor:pointer;
+}
