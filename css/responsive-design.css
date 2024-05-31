@@ -250,6 +250,87 @@
 }
 
 
+/* best sellers */
+
+@media screen and (max-width: 390px) {
+    .best-sellers-con{
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .best-sellers{
+        margin-top: 30px;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .ratchet-and-clank{
+        height: 200px;
+    }
+
+    .ratchet-and-clank-description{
+        margin: 0;
+        padding: 15px;
+    }
+
+    .best-sellers img{
+        height: 60px;
+        margin-top: 5px;
+    }
+
+    .best-sellers-two-and-three{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .xenoblade{
+        width: 100%;
+        height: 200px;
+    }
+
+    .sekiro{
+        width: 100%;
+        height: 200px;
+    }
+
+    .bestsellers-subheading-large{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .bestsellers-heading-large{
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .bestsellers-pricing-large{
+        font-size: 16px;
+    }
+
+    .best-seller-small-description{
+        margin: 0;
+        padding: 15px;
+    }
+
+    .bestsellers-subheading-small{
+        font-size: 12px;
+        margin-bottom: 0;
+        margin-bottom: 5px;
+    }
+
+    .bestsellers-heading-small{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .bestsellers-pricing-small{
+        font-size: 16px;
+    }
+}
+
+
 /* blog */
 
 @media screen and (max-width: 390px) {
