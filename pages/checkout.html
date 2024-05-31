@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/cards.css">
     <link rel="stylesheet" href="../css/others.css">
+    <link rel="stylesheet" href="../css/responsive-design-checkout.css">
     <title>Document</title>
 </head>
 <body>
@@ -50,9 +51,9 @@
     </nav>
     
     <main>
-        <div class="flex-row horizontal-center spacing">
+        <div id="shoppinginfo" class="flex-row horizontal-center spacing">
 <!-- left half -->
-            <div class="flex-col">
+            <div id="left-half" class="flex-col">
                 <!-- shipping info -->
                 <div class="checkout-heading flex-col center">
                     <div class="redline"></div>
@@ -224,7 +225,7 @@
                         <div class="flex-row spacing-small vert-center">
                             <img src="../assets/check-out/selected-ellipse.svg" alt="selected-ellipse">
                             <p class="inter-semibold-16">Credit / Debit Card</p>
-                            <div class="flex-row margin-left-large logo-gap">
+                            <div id="cardlogo" class="flex-row margin-left-large logo-gap">
                                 <img src="../assets/check-out/visa.svg" alt="visa">
                                 <img src="../assets/check-out/mastercard.svg" alt="mastercard">
                                 <img src="../assets/check-out/amex.svg" alt="amex">
@@ -251,7 +252,7 @@
                                         <p class="inter-regular-16 asterisk">*</p>
                                      </div>
                                     <form>
-                                        <div class="info-input payment-method">
+                                        <div id="date" class="info-input payment-method">
                                             <input type="text" class="info" placeholder="MM/YY">
                                         </div>
                                     </form>
@@ -262,7 +263,7 @@
                                         <p class="inter-regular-16 asterisk">*</p>
                                      </div>
                                     <form>
-                                        <div class="info-input payment-method">
+                                        <div id="cvv" class="info-input payment-method">
                                             <input type="text" class="info" placeholder="CVV">
                                         </div>
                                     </form>
@@ -321,17 +322,14 @@
                             </div>                            
                         </div>                                     
                     </div>
-                    <!-- Save And Continue -->
-                    <a href="ordersummary.html" class="flex-row center checkout-heading">
-                        <button class="btn btn-savecontinue">Save And Continue</button>
-                    </a>
+                    
                 </div>
             </div>
 
             
 
             <!-- right half -->
-            <div class="flex-col margin-top spacing-medium">
+            <div id="right-half" class="flex-col margin-top spacing-medium">
                 <!-- a plague tale innocence -->
                 <div class="flex-row spacing-small">
                     <div><img class="image-size" src="../assets/product-list/a-plague-tale-innocence.png" alt="a-plague-tale-innocence"></div>
@@ -361,10 +359,10 @@
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/check-out/greyline.svg" alt="greyline">
+                    <img id="mobile-greyline" src="../assets/check-out/greyline.svg" alt="greyline">
                 </div> 
                 <!--subtotal and shipping -->
-                <div class="flex-col spacing-small">
+                <div id="subtotal-and-ship" class="flex-col spacing-small">
                     <div class="flex-row">
                         <p class="inter-semibold-16">Subtotal (inc GST)</p>
                         <p class="push-to-right inter-medium-16">$93.00</p>
@@ -375,15 +373,16 @@
                     </div>
                 </div>
                 <!--total amount -->
-                <div class="flex-row vert-center">
+                <div id="total-amount" class="flex-row vert-center">
                     <p class="inter-bold-24">Total Amount</p>
                     <p class="inter-bold-24 push-to-right">$93.00</p>
                 </div>
             </div>
-
-            
-
-            
+                     
         </div>
+        <!-- Save And Continue -->
+        <a href="ordersummary.html" class="flex-row margin-left-large margin-top-medium">
+            <button class="btn btn-savecontinue">Save And Continue</button>
+        </a>
     </main>
 </body>

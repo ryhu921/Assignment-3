@@ -1,0 +1,145 @@
+/* check out page */
+
+@media screen and (max-width: 390px) {
+
+    .info-input{    
+        width: 45vw;
+   }
+
+   .long-info{
+    width: 92vw;
+   }
+
+   .dropdown-list{
+    width: 38vw;
+   }
+
+   .red-rectangle{
+    width: 90vw;
+   }
+
+   .payment-method-long{
+    width: 82vw;
+   }
+
+   .rect-large{
+    height: fit-content;
+   }
+
+   .rect-regular{
+    width: 90vw;
+   }
+
+   .row-width{
+    width: 200px;
+   }
+
+
+   #right-half{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   }
+
+
+   #subtotal-and-ship{
+    width:92vw;
+   }
+
+   #total-amount{
+    width: 92vw;
+   }
+   
+   #cardlogo{
+    margin-left: 15px;
+    gap: 2px;
+   }
+
+   #cardlogo img{
+    width: 32px;
+    height: 25px;
+   }
+
+   #date{
+    width: 40vw;
+   }
+
+   #cvv{
+    width: 40vw;
+   }
+
+   #mobile-greyline{
+    width: 95vw;
+   }
+
+   #savecontinue{
+    width: 95vw;
+    margin-left: -130px;
+   }
+
+
+   .btn-savecontinue{
+    width: 95vw;
+    height: 75px;
+    font-size: 20px;
+    margin-left: -130px; 
+   }
+  
+}
+
+
+/*nav bar*/
+
+@media screen and (max-width: 390px) {
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        height: 180px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    nav :nth-child(1) {order: 1;}
+    nav :nth-child(2) {order: 3;}
+    nav :nth-child(5) {order: 2;}
+    nav :nth-child(6) {order: 4;}
+    nav :nth-child(7) {order: 5;}
+
+    #hamburger-menu{
+        height: 18px;
+    }
+
+    #logo{
+        height: 30px;
+    }
+
+    #user-icon{
+        height: 30px;
+    }
+
+    #wishlist-icon{
+        height: 30px;
+    }
+
+    #cart-icon{
+        height: 35px;
+    }
+
+    .navcon2{
+        margin: 0;
+        margin-top: 110px;
+        padding: 15px;
+        width: 100vw;
+    }
+
+    .search{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    #currency{
+        display: none;
+    }
+}
