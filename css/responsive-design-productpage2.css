@@ -1,0 +1,372 @@
+/* general */
+
+@media screen and (max-width: 390px) {
+
+    main{
+        margin-bottom: 50px;
+    }
+
+    .redline{
+        width: 60px;
+        height: 4px;
+        margin-bottom: 5px;
+    }
+
+    .redline-large{
+        width: 60px;
+        height: 4px;
+        margin-bottom: 5px;
+    }
+
+    .main-heading-large{
+        font-size: 40px;
+    }
+
+    .extension{
+        display: none;
+    }
+
+    .btn-main{
+        width: 93vw;
+    }
+
+}
+
+/* shoppping cart */
+
+@media screen and (max-width: 390px){
+    .cart-header{
+        font-size: 40px;
+        margin: 0;
+        margin: 15px;
+        margin-bottom: 0;
+        padding-bottom: 14px;
+
+    }
+    .shopping-cart{
+        transform: translate(0, 110%);
+        width: 100vw;
+        height: 80vh;
+        top: auto;
+        bottom: 0;
+
+    }
+
+    .shopping-cart-game{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .item-img{
+        height: 130px;
+    }
+
+    #trash-can1 img{
+        height: 25px;
+    }
+
+    #trash-can2 img{
+        height: 25px;
+    }
+
+    .cart-item{
+        padding: 30px 15px;
+        height: 190px;
+        display: flex;
+    }
+
+    .item-details{
+        height: 100%;
+        padding-left: 20px;
+    }
+
+    .subtotal{
+        font-size: 18px;
+    }
+
+    .subtotal-section{
+        padding: 0 15px;
+    }
+
+    .cart-buttons{
+        padding: 30px 15px;
+    }
+
+    .quantity{
+        padding: 3px 8px;
+        gap: 15px;
+    }
+
+    .checkout,
+    .continue-shopping{
+        font-size: 16px;
+        height: 50px;
+    }
+}
+
+/* nav bar */
+
+@media screen and (max-width: 390px) {
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        height: 180px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    nav :nth-child(1) {order: 1;}
+    nav :nth-child(2) {order: 3;}
+    nav :nth-child(5) {order: 2;}
+    nav :nth-child(6) {order: 4;}
+    nav :nth-child(7) {order: 5;}
+
+    #hamburger-menu{
+        height: 18px;
+    }
+
+    #logo{
+        height: 30px;
+    }
+
+    #user-icon{
+        height: 30px;
+    }
+
+    #wishlist-icon{
+        height: 30px;
+    }
+
+    #cart-icon{
+        height: 35px;
+    }
+
+    .navcon2{
+        margin: 0;
+        margin-top: 110px;
+        padding: 15px;
+        width: 100vw;
+    }
+
+    .search{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    #currency{
+        display: none;
+    }
+}
+
+/* main section */
+
+@media screen and (max-width: 390px){
+
+    .main-product-section-2{
+        height: 638px;
+    }
+
+
+    .browsing-history{
+        margin-top: 190px;
+        margin-left: 15px;
+    }
+
+    .product-tracking-history{
+        font-size: 14px;
+    }
+
+    .product-information{
+        flex-direction: column;
+        padding: 390px 15px 20px 15px;
+        gap: 30px;
+    }
+
+    .product-page-image-1{
+        margin-bottom: 35px;
+    }
+
+    .product-subheading{
+        font-size: 14px;
+    }
+
+    .product-title{
+        font-size: 25px;
+    }
+
+    .btn-add-to-cart{
+        width: 100%;
+    }
+
+    .btn-add-to-wish-list{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+/* video section */
+
+@media screen and (max-width: 390px) {
+    .product-video-section {
+        margin-top: 1320px;
+    }
+
+    iframe {
+        width: 90% !important;
+        height: 50% !important;
+    }
+
+}
+
+/* Description Section */
+@media screen and (max-width: 390px){
+    .product-description-section{
+        margin-top: 50px;
+        padding: 30px 15px;
+    }
+
+    .product-description-body{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+/* you may also like section */
+
+@media screen and (max-width: 390px){
+
+    .you-may-also-like-section{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .latest-games{
+        margin-top: 50px;
+    }
+
+    .game-cards-row{
+        margin-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .game-card{
+        padding: 15px;
+    }
+
+    .game-card-img{
+        height: 200px;
+    }
+
+    .latest-game-category{
+        font-size: 12px;
+    }
+}
+
+
+/* Footer */
+
+@media screen and (max-width: 390px) {
+    footer{
+        bottom: 0px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footercon {
+        flex-direction: column;
+        padding: 15px;
+        padding-top: 20px;
+    }
+
+    .footer-section1{
+        width: 100%;
+    }
+
+    .footer-section1 h1{
+        font-size: 24px;
+    }
+
+    .footer-links {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-links a{
+        padding-bottom: 15px;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid rgba(245, 245, 245, 0.3);
+    }
+
+    .footer-links a:last-child{
+        border: none;
+    }
+
+    .divider{
+        display: none;
+    }
+
+    .social-and-copyright{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media{
+        justify-content: space-between;
+        margin: 0;
+        width: 100%;
+        padding: 0px 50px;
+        margin-bottom: 20px;
+    }
+
+    .signup-bar{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .signup-bar form{
+        width: 100%;
+    }
+
+    .signup{
+        width: 25vw;
+    }
+
+    .subscribe-input{
+        width: 100%;
+    }
+
+    .copyright img{
+        height: 10px;
+        margin: 0;
+        margin-bottom: 11px;
+    }
+
+    .copyright{
+        width: 50vw;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .copyright span{
+        font-size: 10px;
+    }
+
+}
