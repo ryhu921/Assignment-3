@@ -1,6 +1,12 @@
 /* general */
 
 @media screen and (max-width: 390px) {
+
+    main{
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
     .redline{
         width: 60px;
         height: 4px;
@@ -86,10 +92,6 @@
 /* hero */
 
 @media screen and (max-width: 390px) {
-    main{
-        margin-top: 200px;
-    }
-
     .herocon{
         height: 70vh;
         background-image: url(../assets/hero-small.png);
@@ -339,7 +341,7 @@
     }
 
     .game-cards-row{
-        margin-top: 25px;
+        margin-top: 25ox;
         padding-left: 15px;
         padding-right: 15px;
         gap: 10px;
@@ -362,9 +364,52 @@
 /* blog */
 
 @media screen and (max-width: 390px) {
+
+    .blogcon{
+        margin-top: 50px;
+    }
+
     .blog-divider{
         display: flex;
         flex-direction: column;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        gap: 10px;
+    }
+
+    .blog-large{
+        height: 200px;
+        padding: 15px;
+    }
+
+    .blog-subheading-large{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .blog-heading-large{
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .blog-small-1{
+        height: 200px;
+    }
+
+    .blog-small-2{
+        height: 200px;
+    }
+
+    .blog-subheading-small{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .blog-heading-small{
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 5px;
     }
 }
 
