@@ -1,7 +1,46 @@
+/* general */
+
+@media screen and (max-width: 390px) {
+
+    main{
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
+    .redline{
+        width: 60px;
+        height: 4px;
+        margin-bottom: 5px;
+    }
+
+    .redline-large{
+        width: 60px;
+        height: 4px;
+        margin-bottom: 5px;
+    }
+
+    .main-heading-large{
+        font-size: 40px;
+    }
+
+    .extension{
+        display: none;
+    }
+
+    .btn-main{
+        width: 93vw;
+    }
+
+}
+
 /* order summmary page */
 @media screen and (max-width: 390px){
     .row-width{
         width: 200px;
+       }
+
+       .summary-heading{
+        margin-bottom: 25px;
        }
 
     #subtotal-and-ship{
@@ -9,6 +48,11 @@
         margin-left: 5px;
     }
     
+    #customer-info{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
     #total-amount{
         width: 92vw;
         margin-left: 5px;
@@ -26,7 +70,7 @@
     }
 
     .greyline-short{
-        width: 88vw;
+        width: 100%;
     }
 
     .margin-top-negative{
@@ -58,8 +102,58 @@
     }
 
     #right-half{
-        margin-top: -60px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
+    .image-size{
+        height: 150px;
+       }
+       
+    .game-description-checkout{
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .game1,
+    .game2{
+        gap: 0;
+        justify-content: space-between;
+        width: 100%;
+   }
+
+   #ordersummary{
+    gap: 50px;
+   }
+
+   #total-amount p{
+    font-size: 20px;
+   }
+
+   .btn-savecontinue{
+    height: 65px;
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+   }
+
+   .confirmation-section{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+   .terms-and-condition{
+    width: 100%;
+   }
+
+   .terms-and-condition p{
+    font-size: 10px;
+   }
 }
 
 
