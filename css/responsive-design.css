@@ -330,6 +330,34 @@
     }
 }
 
+/* latest */
+
+@media screen and (max-width: 390px){
+    .latest-games{
+        margin-top: 50px;
+        margin
+    }
+
+    .game-cards-row{
+        margin-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .game-card{
+        padding: 15px;
+    }
+
+    .game-card-img{
+        height: 200px;
+    }
+
+    .latest-game-category{
+        font-size: 12px;
+    }
+}
 
 /* blog */
 
