@@ -337,11 +337,10 @@
 @media screen and (max-width: 390px){
     .latest-games{
         margin-top: 50px;
-        margin
     }
 
     .game-cards-row{
-        margin-top: 25ox;
+        margin-top: 25px;
         padding-left: 15px;
         padding-right: 15px;
         gap: 10px;
