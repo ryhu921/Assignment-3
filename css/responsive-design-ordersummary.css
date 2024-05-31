@@ -1,0 +1,62 @@
+/* order summmary page */
+
+
+
+
+/*nav bar*/
+
+@media screen and (max-width: 390px) {
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        height: 180px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    nav :nth-child(1) {order: 1;}
+    nav :nth-child(2) {order: 3;}
+    nav :nth-child(5) {order: 2;}
+    nav :nth-child(6) {order: 4;}
+    nav :nth-child(7) {order: 5;}
+
+    #hamburger-menu{
+        height: 18px;
+    }
+
+    #logo{
+        height: 30px;
+    }
+
+    #user-icon{
+        height: 30px;
+    }
+
+    #wishlist-icon{
+        height: 30px;
+    }
+
+    #cart-icon{
+        height: 35px;
+    }
+
+    .navcon2{
+        margin: 0;
+        margin-top: 110px;
+        padding: 15px;
+        width: 100vw;
+    }
+
+    .search{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    #currency{
+        display: none;
+    }
+}
+
+
