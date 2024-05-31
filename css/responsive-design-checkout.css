@@ -1,9 +1,63 @@
+/* general */
+
+@media screen and (max-width: 390px) {
+
+    main{
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
+    .redline{
+        width: 60px;
+        height: 4px;
+        margin-bottom: 5px;
+    }
+
+    .redline-large{
+        width: 60px;
+        height: 4px;
+        margin-bottom: 5px;
+    }
+
+    .main-heading-large{
+        font-size: 40px;
+    }
+
+    .extension{
+        display: none;
+    }
+
+    .btn-main{
+        width: 93vw;
+    }
+
+}
+
 /* check out page */
 
 @media screen and (max-width: 390px) {
 
+    #shoppinginfo{
+        gap: 50px; 
+        width: 100vw;
+    }
+
+    .checkout-heading{
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .payment-method-section{
+        margin-top: 30px;
+    }
+
     .info-input{    
         width: 45vw;
+        height: 40px;
+   }
+
+   .shipping-method{
+    margin-top: 50px;
    }
 
    .long-info{
@@ -33,14 +87,6 @@
    .row-width{
     width: 200px;
    }
-
-
-   #right-half{
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-   }
-
 
    #subtotal-and-ship{
     width:92vw;
@@ -88,6 +134,36 @@
    .spacing{
     gap:130px;
    }
+
+   .game1,
+   .game2{
+    gap: 0;
+    justify-content: space-between;
+    width: 100%;
+   }
+
+   .image-size{
+    height: 150px;
+   }
+
+   .game-description-checkout{
+    gap: 0;
+    justify-content: space-between;
+   }
+
+   #right-half{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+
+   .shipping-method div:nth-child(2){
+    width: 100%;
+   }
+   
 }
 
 
