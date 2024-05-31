@@ -1,5 +1,66 @@
 /* order summmary page */
+@media screen and (max-width: 390px){
+    .row-width{
+        width: 200px;
+       }
 
+    #subtotal-and-ship{
+        width:92vw;
+        margin-left: 5px;
+    }
+    
+    #total-amount{
+        width: 92vw;
+        margin-left: 5px;
+    }
+
+    #mobile-greyline{
+        width: 95vw;
+       }
+
+    .white-rectangle{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .greyline-short{
+        width: 88vw;
+    }
+
+    .margin-top-negative{
+        margin-top: 0;
+    }
+
+    .margin-left-large{
+        margin-left: 0;
+    }
+
+    .btn-savecontinue{
+        width: 95vw;
+        height: 75px;
+        font-size: 20px;
+        margin-left: 9px;
+        margin-top: 50px;
+       } 
+
+    .terms-and-condition{      
+        width: 100vw;
+    }
+
+    .spacing{
+        gap: 130px;
+    }
+    
+    .summary-heading{
+        margin-top: 200px;
+    }
+
+    #right-half{
+        margin-top: -60px;
+    }
+}
 
 
 

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/cards.css">
     <link rel="stylesheet" href="../css/others.css">
+    <link rel="stylesheet" href="../css/responsive-design-ordersummary.css">
     <title>Document</title>
 </head>
 <body>
@@ -54,7 +55,7 @@
             <div class="redline"></div>
             <h1 class="main-heading-large">Order Summary</h1>
         </div>
-        <div class="flex-row horizontal-center spacing">
+        <div id="ordersummary" class="flex-row horizontal-center spacing">
             <!-- left half -->
             <div class="flex-col">
                 <div class="flex-col white-rectangle" id="customer-info">
@@ -72,18 +73,12 @@
                         <p class="inter-regular-16">123 Happy Street, Melbourne 3000, VIC, Australia</p>
                     </div>
                 </div>
-                <!-- confirm button and terms and condition-->
-                <div class="flex-col center checkout-heading spacing-small">
-                    <button class="btn btn-savecontinue" onclick="location.href='orderconfirmation.html'">Confirm and Place Order</button>
-                    <div class="terms-and-condition">
-                        <p class="inter-regular-12 align-center">By placing the order, you confirm that you have read, understand and accept our <u>terms & conditions</u> and <u>privacy policy</u>.</p>
-                    </div>
-                </div>
+                
             </div>
 
 
             <!-- right half -->
-            <div class="flex-col spacing-medium">
+            <div id="right-half" class="flex-col spacing-medium">
                 <!-- a plague tale innocence -->
                 <div class="flex-row spacing-small">
                     <div><img class="image-size" src="../assets/product-list/a-plague-tale-innocence.png" alt="a-plague-tale-innocence"></div>
@@ -113,10 +108,10 @@
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/check-out/greyline.svg" alt="greyline">
+                    <img id="mobile-greyline" src="../assets/check-out/greyline.svg" alt="greyline">
                 </div> 
                 <!--subtotal and shipping -->
-                <div class="flex-col spacing-small">
+                <div id="subtotal-and-ship" class="flex-col spacing-small">
                     <div class="flex-row">
                         <p class="inter-semibold-16">Subtotal (inc GST)</p>
                         <p class="push-to-right inter-medium-16">$93.00</p>
@@ -127,14 +122,20 @@
                     </div>
                 </div>
                 <!--total amount -->
-                <div class="flex-row vert-center">
+                <div id="total-amount" class="flex-row vert-center">
                     <p class="inter-bold-24">Total Amount</p>
                     <p class="inter-bold-24 push-to-right">$93.00</p>
                 </div>
             </div>
 
         </div>
-
+        <!-- confirm button and terms and condition-->
+        <div class="flex-col spacing-small margin-left-large margin-top-negative ">
+            <button class="btn btn-savecontinue" onclick="location.href='orderconfirmation.html'">Confirm and Place Order</button>
+            <div class="terms-and-condition">
+                <p class="inter-regular-12 align-center">By placing the order, you confirm that you have read, understand and accept our <u>terms & conditions</u> and <u>privacy policy</u>.</p>
+            </div>
+        </div>
         
     </main>
 </body>

@@ -107,7 +107,7 @@ main{
 }
 
 .margin-left-large{
-    margin-left: 140px;
+    margin-left: 146px;
 }
 
 .horizontal-center{
@@ -166,4 +166,13 @@ main{
 .summary-heading{
     margin-top:180px;
     margin-bottom: 50px;
+}
+
+
+#ordersummary{
+    flex-wrap: wrap;
+}
+
+.margin-top-negative{
+    margin-top: -390px;
 }

@@ -19,7 +19,7 @@
    }
 
    .payment-method-long{
-    width: 82vw;
+    width: 85vw;
    }
 
    .rect-large{
@@ -61,30 +61,33 @@
    }
 
    #date{
-    width: 40vw;
+    width: 41.3vw;
    }
 
    #cvv{
-    width: 40vw;
+    width: 41.3vw;
    }
 
    #mobile-greyline{
     width: 95vw;
    }
 
+   /*
    #savecontinue{
     width: 95vw;
     margin-left: -130px;
-   }
+   }*/
 
 
    .btn-savecontinue{
     width: 95vw;
     height: 75px;
     font-size: 20px;
-    margin-left: -130px; 
+    margin-left: -136px; 
    }
-  
+   .spacing{
+    gap:130px;
+   }
 }
 
 

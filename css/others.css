@@ -74,7 +74,8 @@ iframe {
 }
 
 .rect-large{
-    height: 350px;
+    height:fit-content;
+    padding: 2%;
 }
 
 .rect-regular{
