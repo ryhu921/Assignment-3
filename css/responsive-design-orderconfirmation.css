@@ -1,6 +1,6 @@
 /* general */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1000px) {
 
     main{
         margin-top: 200px;
@@ -34,6 +34,24 @@
 }
 
 /* order confirmation page */
+
+@media screen and (max-width: 800px){
+    #confirmation-footer{
+        position: relative;  
+      }
+  
+      #continueshop{
+        width: 70vw;
+        height: 65px;
+      }
+
+      .summery-con{
+        margin-bottom: 150px;
+        margin-top: 300px;
+      }
+
+  }
+
 @media screen and (max-width: 390px){
     #confirmation-footer{
         position: relative;  
