@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../css/others.css">
     <link rel="stylesheet" href="../css/shopping-cart.css">
     <link rel="stylesheet" href="../css/responsive-design-productlist.css">
+    <link rel="stylesheet" href="../css/responsive-design-nav.css">
     <script src="../javascript.js"></script>
     <title>Document</title>
 </head>
@@ -110,16 +111,15 @@
 
 <!-- Nav bar -->
     <nav class="box-shadow">
-            
         <a href="#"><img id="hamburger-menu" src="../assets/hamburger.svg"></a>
-        <a href="../index.html"><img id="logo" src="../assets/gdgames.svg"></a>
+        <a class="logo" href="../index.html"><img id="logo" src="../assets/gdgames.svg"></a>
         <div class="navcon2">
             <form>
                 <div class="search">
                     <span><img src="../assets/search.svg"></span>
                     <input type="search" class="search-input" onfocus="expandList()" onblur="foldList()" onkeydown="redirect(key)">
                     <ul id="suggestions-list" class="fold">
-                        <a href="../pages/productlist.html"> <li onclick="getKeyword('Playstation 5')">Playstation 5</li></a>
+                        <a href="./pages/productlist.html"> <li onclick="getKeyword('Playstation 5')">Playstation 5</li></a>
                         <li onclick="getKeyword('Playstation 4')">Playstation 4</li>
                         <li onclick="getKeyword('Nintendo Switch')">Nintendo Switch</li>
                         <li onclick="getKeyword('Xbox')">Xbox</li>
@@ -130,13 +130,12 @@
         <div id="currency" class="audfont">$AUD
             <img id="currency-arrow-icon" src="../assets/arrow.svg">
         </div>
-        <a href="#"><img id="user-icon" src="../assets/user.svg"></a>
+        <a class="user-icon" href="#"><img id="user-icon" src="../assets/user.svg"></a>
         <a href="#"><img id="wishlist-icon" src="../assets/wishlist.svg"></a>
         <button id="open-cart">
             <img id="cart-icon" src="../assets/basket.svg">
             <span id="items-num" class="items-num-style none">1</span>
         </button>
-    
     </nav>
 
 

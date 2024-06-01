@@ -1,6 +1,6 @@
 /* general */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
 
     main{
         margin-top: 200px;
@@ -35,7 +35,7 @@
 
 /* shoppping cart */
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 500px){
     .cart-header{
         font-size: 40px;
         margin: 0;
@@ -104,65 +104,10 @@
     }
 }
 
-/* nav bar */
-
-@media screen and (max-width: 390px) {
-
-    nav{
-        display: flex;
-        flex-direction: row;
-        height: 180px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    nav :nth-child(1) {order: 1;}
-    nav :nth-child(2) {order: 3;}
-    nav :nth-child(5) {order: 2;}
-    nav :nth-child(6) {order: 4;}
-    nav :nth-child(7) {order: 5;}
-
-    #hamburger-menu{
-        height: 18px;
-    }
-
-    #logo{
-        height: 30px;
-    }
-
-    #user-icon{
-        height: 30px;
-    }
-
-    #wishlist-icon{
-        height: 30px;
-    }
-
-    #cart-icon{
-        height: 35px;
-    }
-
-    .navcon2{
-        margin: 0;
-        margin-top: 110px;
-        padding: 15px;
-        width: 100vw;
-    }
-
-    .search{
-        width: 100%;
-        height: 40px;
-        padding: 10px;
-    }
-
-    #currency{
-        display: none;
-    }
-}
 
 /* hero */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
     .herocon{
         height: 70vh;
         background-image: url(../assets/hero-small.png);
@@ -204,7 +149,12 @@
 
 /* category */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
+
+    .categories-heading{
+        margin-top: 70px;
+    }
+
     .on-sale{
         margin-top: 50px;
     }
@@ -248,7 +198,7 @@
 
 
 /* on sale */
-@media screen and (max-width: 390px){
+@media screen and (max-width: 500px){
     .on-sale-games{
         padding-left: 15px;
         padding-right: 15px;
@@ -325,7 +275,7 @@
 
 /* best sellers */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
     .best-sellers-con{
         margin-top: 50px;
         padding-top: 30px;
@@ -405,7 +355,7 @@
 
 /* latest */
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 500px){
     .latest-games{
         margin-top: 50px;
     }
@@ -433,7 +383,7 @@
 
 /* blog */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
 
     .blogcon{
         margin-top: 50px;
@@ -481,107 +431,4 @@
         margin-top: 0;
         margin-bottom: 5px;
     }
-}
-
-/* Footer */
-
-@media screen and (max-width: 390px) {
-    footer{
-        bottom: 0px;
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footercon {
-        flex-direction: column;
-        padding: 15px;
-        padding-top: 20px;
-    }
-
-    .footer-section1{
-        width: 100%;
-    }
-
-    .footer-section1 h1{
-        font-size: 24px;
-    }
-
-    .footer-links {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .footer-links a{
-        padding-bottom: 15px;
-        text-align: center;
-        width: 100%;
-        border-bottom: 1px solid rgba(245, 245, 245, 0.3);
-    }
-
-    .footer-links a:last-child{
-        border: none;
-    }
-
-    .divider{
-        display: none;
-    }
-
-    .social-and-copyright{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .social-media{
-        justify-content: space-between;
-        margin: 0;
-        width: 100%;
-        padding: 0px 50px;
-        margin-bottom: 20px;
-    }
-
-    .signup-bar{
-        width: 100%;
-        margin-bottom: 5px;
-    }
-
-    .signup-bar form{
-        width: 100%;
-    }
-
-    .signup{
-        width: 25vw;
-    }
-
-    .subscribe-input{
-        width: 100%;
-    }
-
-    .copyright img{
-        height: 10px;
-        margin: 0;
-        margin-bottom: 11px;
-    }
-
-    .copyright{
-        width: 50vw;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-
-    .copyright span{
-        font-size: 10px;
-    }
-
 }
