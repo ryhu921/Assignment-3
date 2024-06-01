@@ -1,5 +1,3 @@
-//open and close cart
-
 document.addEventListener('DOMContentLoaded', (event) => {
     const openBtn = document.getElementById('open-cart');
     openBtn.addEventListener('click', openCart);
@@ -140,10 +138,10 @@ function updateCartItemCount() {
     }
 
     const noitem = document.getElementById('no-item');
-    if (itemCount >=1){
+    if (itemCount >= 1) {
         noitem.classList.add('none');
     }
-    if (itemCount === 0){
+    if (itemCount === 0) {
         noitem.classList.remove('none');
     }
 }
@@ -179,6 +177,9 @@ function add_item1() {
 function remove_item1() {
     const cart = document.getElementById('cart-item1');
     cart.classList.add('none');
+    count = 1; // Reset count to 1
+    localStorage.setItem('count', count);
+    updateCounter();
     saveCartState();
     updateTotal();
     updateCartItemCount();
@@ -195,6 +196,9 @@ function add_item2() {
 function remove_item2() {
     const cart = document.getElementById('cart-item2');
     cart.classList.add('none');
+    count_2 = 1; // Reset count_2 to 1
+    localStorage.setItem('count_2', count_2);
+    updateCounter2();
     saveCartState();
     updateTotal();
     updateCartItemCount();
