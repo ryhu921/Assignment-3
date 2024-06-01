@@ -1,6 +1,6 @@
 /* general */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1000px) {
 
     main{
         margin-bottom: 50px;
@@ -34,7 +34,7 @@
 
 /* shoppping cart */
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 800px){
     .cart-header{
         font-size: 40px;
         margin: 0;
@@ -103,7 +103,77 @@
     }
 }
 
+/* Browswing history */
+@media screen and (max-width: 1000px) {
+    .browsing-history{
+        margin-top: 190px;
+        margin-left: 15px;
+    }
+}
+
+
 /* main section */
+
+@media screen and (max-width: 1000px){
+    .product-information{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .product-information{
+        gap: 5vw;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .main-product-section-2{
+        height: 675px;
+    }
+
+
+    .browsing-history{
+        margin-top: 190px;
+        margin-left: 15px;
+    }
+
+    .product-information{
+        flex-direction: column;
+        padding: 390px 15px 20px 15px;
+        gap: 30px;
+    }
+
+    .product-section-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .product-page-image-1{
+        margin-bottom: 35px;
+        width: fit-content;
+    }
+
+    .product-subheading{
+        font-size: 14px;
+    }
+
+    .product-title{
+        font-size: 25px;
+    }
+
+    .btn-add-to-cart{
+        width: 100%;
+    }
+
+    .btn-add-to-wish-list{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
 
 @media screen and (max-width: 390px){
 
@@ -151,6 +221,18 @@
 
 /* video section */
 
+@media screen and (max-width: 700px) {
+    .product-video-section {
+        margin-top: 1360px;
+    }
+
+    iframe {
+        width: 90% !important;
+        height: 50% !important;
+    }
+
+}
+
 @media screen and (max-width: 390px) {
     .product-video-section {
         margin-top: 1320px;
@@ -164,6 +246,17 @@
 }
 
 /* Description Section */
+@media screen and (max-width: 700px){
+    .product-description-section{
+        padding: 30px 15px;
+    }
+
+    .product-description-body{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
 @media screen and (max-width: 390px){
     .product-description-section{
         margin-top: 50px;
