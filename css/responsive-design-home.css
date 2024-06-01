@@ -1,6 +1,6 @@
 /* general */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 
     main{
         margin-top: 200px;
@@ -35,7 +35,7 @@
 
 /* shoppping cart */
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .cart-header{
         font-size: 40px;
         margin: 0;
@@ -107,7 +107,7 @@
 
 /* hero */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .herocon{
         height: 70vh;
         background-image: url(../assets/hero-small.png);
@@ -149,7 +149,7 @@
 
 /* category */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 
     .categories-heading{
         margin-top: 70px;
@@ -198,7 +198,7 @@
 
 
 /* on sale */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .on-sale-games{
         padding-left: 15px;
         padding-right: 15px;
@@ -275,7 +275,7 @@
 
 /* best sellers */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .best-sellers-con{
         margin-top: 50px;
         padding-top: 30px;
@@ -355,7 +355,7 @@
 
 /* latest */
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .latest-games{
         margin-top: 50px;
     }
@@ -383,7 +383,7 @@
 
 /* blog */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 
     .blogcon{
         margin-top: 50px;
