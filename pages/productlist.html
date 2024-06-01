@@ -19,9 +19,14 @@
     <link rel="stylesheet" href="../css/others.css">
     <link rel="stylesheet" href="../css/shopping-cart.css">
     <link rel="stylesheet" href="../css/responsive-design-productlist.css">
+    <script src="../javascript.js"></script>
     <title>Document</title>
 </head>
 <body>
+
+    <div id="add-to-cart1"></div>
+    <div id="add-to-cart2"></div>
+    
 
 <!--Shopping Cart-->
 
@@ -32,6 +37,11 @@
     <div class="cart-content flex-col">
         <p class="cart-header shopping-cart-title">Cart</p>
         <div class="cart-items">
+
+            <!-- No items in cart -->
+            <div id="no-item" class="no-item">
+                <p class="shopping-cart-no-item">Your Chart is Empty</p>
+            </div>
             <!--Cart Item 1-->
             <div id="cart-item1" class="cart-item none">
                 <div class="item-img">
@@ -46,18 +56,16 @@
                     </div>
                     <div class="flex-row space-between align-bottom">
                         <div class="quantity">
-                             <button onclick="removeitem()"><img src="../assets/shopping-cart/minus-icon.svg" alt="minus-icon"></button>
+                             <button class="flex-row center" onclick="removeitem()"><img src="../assets/shopping-cart/minus-icon.svg" alt="minus-icon"></button>
                             <span id="item-1-quant">
                                 1
                             </span>
                             <button onclick="additem()" id="add_item"><img src="../assets/shopping-cart/add-icon.svg" alt="add-icon"></button>
-            
                         </div>
                         <div><span>$</span><span id="item1-price">49.00</span></div>
                     </div>
                 </div>
             </div>
-
 
 
             <!--Cart Item 1-->
@@ -76,7 +84,7 @@
                     </div>
                     <div class="flex-row space-between align-bottom">
                         <div class="quantity">
-                            <button><img src="../assets/shopping-cart/minus-icon.svg" alt="minus-icon" onclick="removeitem2()"></button>
+                            <button class="flex-row center"><img src="../assets/shopping-cart/minus-icon.svg" alt="minus-icon" onclick="removeitem2()"></button>
                             <span id="item-2-quant">1</span>
                             <button><img src="../assets/shopping-cart/add-icon.svg" alt="add-icon" onclick="additem2()"></button>
                         </div>
@@ -94,14 +102,14 @@
             </div>
             <div class="cart-buttons flex-row">
                 <button id="close-cart" class="btn continue-shopping">Continue Shopping</button>
-                <button class="btn checkout">Check Out</button>
+                <button onclick="location.href='checkout.html'" class="btn checkout">Check Out</button>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Nav bar -->
-    <nav>
+    <nav class="box-shadow">
             
         <a href="#"><img id="hamburger-menu" src="../assets/hamburger.svg"></a>
         <a href="../index.html"><img id="logo" src="../assets/gdgames.svg"></a>

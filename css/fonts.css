@@ -4,6 +4,12 @@
     color: #111111;
 }
 
+.shopping-cart-no-item{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .subtotal{
     font-family: "Inter", sans-serif;
     font-size: 26px;

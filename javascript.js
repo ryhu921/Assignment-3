@@ -1,3 +1,5 @@
+//open and close cart
+
 document.addEventListener('DOMContentLoaded', (event) => {
     const openBtn = document.getElementById('open-cart');
     openBtn.addEventListener('click', openCart);
@@ -8,13 +10,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
     closeBtn.addEventListener('click', closeCart);
     backdrop.addEventListener('click', closeCart);
 
+    // Initialize counters and update total and item count on page load
     updateCounter();
     updateCounter2();
     updateTotal();
-    updateCartItemCount(); // Update cart item count on page load
+    updateCartItemCount();
 });
 
-// Functions to open and close the cart
 function openCart() {
     const cart = document.getElementById('shopping-cart');
     cart.classList.add('open');
@@ -45,6 +47,7 @@ const item2BasePrice = 44.00;
 function updateCounter() {
     document.getElementById('item-1-quant').innerText = count;
     localStorage.setItem('count', count);
+    updateCartItemCount();
 }
 
 function updatePrice1() {
@@ -56,6 +59,7 @@ function updatePrice1() {
 function updateCounter2() {
     document.getElementById('item-2-quant').innerText = count_2;
     localStorage.setItem('count_2', count_2);
+    updateCartItemCount();
 }
 
 function updatePrice2() {
@@ -87,14 +91,12 @@ function additem() {
     count++;
     updateCounter();
     updateTotal();
-    updateCartItemCount(); // Update cart item count
 }
 
 function additem2() {
     count_2++;
     updateCounter2();
     updateTotal();
-    updateCartItemCount(); // Update cart item count
 }
 
 function removeitem() {
@@ -102,7 +104,6 @@ function removeitem() {
         count--;
         updateCounter();
         updateTotal();
-        updateCartItemCount(); // Update cart item count
     }
 }
 
@@ -111,7 +112,6 @@ function removeitem2() {
         count_2--;
         updateCounter2();
         updateTotal();
-        updateCartItemCount(); // Update cart item count
     }
 }
 
@@ -138,19 +138,34 @@ function updateCartItemCount() {
     } else {
         itemsNumElement.classList.remove('none');
     }
+
+    const noitem = document.getElementById('no-item');
+    if (itemCount >=1){
+        noitem.classList.add('none');
+    }
+    if (itemCount === 0){
+        noitem.classList.remove('none');
+    }
 }
 
 // Adding and removing item from cart
 document.addEventListener('DOMContentLoaded', (event) => {
-    const adding = document.getElementById('add-to-cart1');
-    const removing = document.getElementById('trash-can1');
+    const adding1 = document.getElementById('add-to-cart1');
+    const removing1 = document.getElementById('trash-can1');
+   
+    adding1.addEventListener('click', add_item1);
+    removing1.addEventListener('click', remove_item1);
 
-    adding.addEventListener('click', add_item1);
-    removing.addEventListener('click', remove_item1);
+    const adding2 = document.getElementById('add-to-cart2');
+    const removing2 = document.getElementById('trash-can2');
 
+    adding2.addEventListener('click', add_item2);
+    removing2.addEventListener('click', remove_item2);
+
+    // Load the cart state on page load
     loadCartState();
     updateTotal();  // Ensure the total is updated based on the loaded state
-    updateCartItemCount(); // Update cart item count based on the loaded state
+    updateCartItemCount();
 });
 
 function add_item1() {
@@ -158,7 +173,7 @@ function add_item1() {
     cart.classList.remove('none');
     saveCartState();
     updateTotal();
-    updateCartItemCount(); // Update cart item count
+    updateCartItemCount();
 }
 
 function remove_item1() {
@@ -166,27 +181,15 @@ function remove_item1() {
     cart.classList.add('none');
     saveCartState();
     updateTotal();
-    updateCartItemCount(); // Update cart item count
+    updateCartItemCount();
 }
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    const adding2 = document.getElementById('add-to-cart2');
-    const removing2 = document.getElementById('trash-can2');
-
-    adding2.addEventListener('click', add_item2);
-    removing2.addEventListener('click', remove_item2);
-
-    loadCartState();
-    updateTotal();  // Ensure the total is updated based on the loaded state
-    updateCartItemCount(); // Update cart item count based on the loaded state
-});
 
 function add_item2() {
     const cart = document.getElementById('cart-item2');
     cart.classList.remove('none');
     saveCartState();
     updateTotal();
-    updateCartItemCount(); // Update cart item count
+    updateCartItemCount();
 }
 
 function remove_item2() {
@@ -194,10 +197,9 @@ function remove_item2() {
     cart.classList.add('none');
     saveCartState();
     updateTotal();
-    updateCartItemCount(); // Update cart item count
+    updateCartItemCount();
 }
 
-// Function to save the state of cart items to localStorage
 function saveCartState() {
     const cartItem1 = document.getElementById('cart-item1');
     const cartItem2 = document.getElementById('cart-item2');
@@ -205,7 +207,6 @@ function saveCartState() {
     localStorage.setItem('cartItem2Visible', !cartItem2.classList.contains('none'));
 }
 
-// Function to load the state of cart items from localStorage
 function loadCartState() {
     const cartItem1Visible = localStorage.getItem('cartItem1Visible') === 'true';
     const cartItem2Visible = localStorage.getItem('cartItem2Visible') === 'true';
@@ -221,5 +222,27 @@ function loadCartState() {
         cartItem2.classList.remove('none');
     } else {
         cartItem2.classList.add('none');
+    }
+}
+
+// search bar
+
+function expandList() {
+    document.getElementById("suggestions-list").classList.remove("fold");
+}
+
+function foldList() {
+    setTimeout(function() {
+        document.getElementById("suggestions-list").classList.add("fold");
+    }, 50);
+}
+
+function getKeyword(keyword) {
+    document.querySelector(".search-input").value = keyword;
+}
+
+function redirect(key) {
+    if (key.keyCode === 13) {
+        location.href = 'pages/productlist.html';
     }
 }
