@@ -65,11 +65,17 @@ function updatePrice2() {
 
 function updateTotal() {
     const cartItem1 = document.getElementById('cart-item1');
+    const cartItem2 = document.getElementById('cart-item2');
     let totalPriceFinal = 0;
 
     if (!cartItem1.classList.contains('none')) {
         const totalPrice1 = updatePrice1();
-        totalPriceFinal = totalPrice1;
+        totalPriceFinal += totalPrice1;
+    }
+
+    if (!cartItem2.classList.contains('none')) {
+        const totalPrice2 = updatePrice2();
+        totalPriceFinal += totalPrice2;
     }
 
     document.getElementById('subtotal-price').innerText = totalPriceFinal.toFixed(2);
