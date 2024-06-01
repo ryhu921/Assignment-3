@@ -1,6 +1,6 @@
 /* general */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 600px) {
 
     main{
         margin-top: 200px;
@@ -35,7 +35,50 @@
 
 /* check out page */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1121px){
+    #left-half{
+        width: 100%;
+        padding: 0px 30px;
+        align-items: center;
+    }
+
+    .info-input{
+        width: 40vw;
+    }
+
+    .long-info{
+        width: 80vw;
+    }
+
+    .red-rectangle{
+        width: 85vw;
+       }
+
+    .payment-method-section{
+        align-items: center;
+    }
+
+    .rect-regular{
+        width: 80vw;
+    }
+
+    #right-half{
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .save-and-continue{
+        margin: 0;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #cardlogo{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
 
     #shoppinginfo{
         gap: 50px; 
@@ -97,7 +140,7 @@
    }
    
    #cardlogo{
-    margin-left: 15px;
+    margin-left: auto;
     gap: 2px;
    }
 
@@ -118,18 +161,17 @@
     width: 95vw;
    }
 
-   /*
-   #savecontinue{
-    width: 95vw;
-    margin-left: -130px;
-   }*/
-
+   .save-and-continue{
+    margin: 0;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 0px 15px;
+}
 
    .btn-savecontinue{
-    width: 95vw;
+    width: 100%;
     height: 75px;
     font-size: 20px;
-    margin-left: -136px; 
    }
    .spacing{
     gap:130px;
@@ -156,8 +198,8 @@
     justify-content: center;
     width: 100%;
     margin-top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
    }
 
    .shipping-method div:nth-child(2){

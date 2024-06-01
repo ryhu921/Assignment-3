@@ -1,0 +1,70 @@
+/* shoppping cart */
+
+@media screen and (max-width: 960px){
+    .cart-header{
+        font-size: 40px;
+        margin: 0;
+        margin: 15px;
+        margin-bottom: 0;
+        padding-bottom: 14px;
+
+    }
+    .shopping-cart{
+        transform: translate(0, 110%);
+        width: 100vw;
+        height: 80vh;
+        top: auto;
+        bottom: 0;
+
+    }
+
+    .shopping-cart-game{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .item-img{
+        height: 130px;
+    }
+
+    #trash-can1 img{
+        height: 25px;
+    }
+
+    #trash-can2 img{
+        height: 25px;
+    }
+
+    .cart-item{
+        padding: 30px 15px;
+        height: 190px;
+    }
+
+    .item-details{
+        height: 100%;
+        padding-left: 20px;
+    }
+
+    .subtotal{
+        font-size: 18px;
+    }
+
+    .subtotal-section{
+        padding: 0 15px;
+    }
+
+    .cart-buttons{
+        padding: 30px 15px;
+    }
+
+    .quantity{
+        padding: 3px 8px;
+        gap: 15px;
+    }
+
+    .checkout,
+    .continue-shopping{
+        font-size: 16px;
+        height: 50px;
+    }
+}

@@ -1,6 +1,6 @@
 /* general */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1000px) {
 
     main{
         margin-top: 200px;
@@ -34,7 +34,134 @@
 }
 
 /* order summmary page */
-@media screen and (max-width: 390px){
+
+@media screen and (max-width: 1){
+    
+}
+
+
+@media screen and (max-width: 960px){
+    .row-width{
+        width: 200px;
+       }
+
+       .summary-heading{
+        margin-bottom: 25px;
+       }
+
+    #subtotal-and-ship{
+        width:92vw;
+        margin-left: 5px;
+    }
+    
+    #customer-info{
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 90vw;
+    }
+
+    #total-amount{
+        width: 92vw;
+        margin-left: 5px;
+    }
+
+    #mobile-greyline{
+        width: 95vw;
+       }
+
+    .white-rectangle{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .greyline-short{
+        width: 100%;
+    }
+
+    .margin-top-negative{
+        margin-top: 0;
+    }
+
+    .margin-left-large{
+        margin-left: 0;
+    }
+
+    .btn-savecontinue{
+        width: 95vw;
+        height: 75px;
+        font-size: 20px;
+        margin-left: 9px;
+        margin-top: 50px;
+       } 
+
+    .terms-and-condition{      
+        width: 100vw;
+    }
+
+    .spacing{
+        gap: 130px;
+    }
+    
+    .summary-heading{
+        margin-top: 200px;
+    }
+
+    #right-half{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+       
+    .game-description-checkout{
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .game1,
+    .game2{
+        gap: 30px;
+        width: 100%;
+        justify-content: center;
+   }
+
+   #ordersummary{
+    gap: 50px;
+   }
+
+   #total-amount p{
+    font-size: 20px;
+   }
+
+   .btn-savecontinue{
+    height: 65px;
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+   }
+
+   .confirmation-section{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+   .terms-and-condition{
+    width: 100%;
+   }
+
+   .terms-and-condition p{
+    font-size: 10px;
+   }
+}
+
+@media screen and (max-width: 500px){
     .row-width{
         width: 200px;
        }

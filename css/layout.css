@@ -173,6 +173,7 @@ main{
     flex-wrap: wrap;
 }
 
-.margin-top-negative{
-    margin-top: -390px;
+.confirmation-section{
+    margin-top: 50px;
+    gap: 25px;
 }
