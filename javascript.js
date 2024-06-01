@@ -250,3 +250,19 @@ function redirect(key) {
         location.href = 'pages/productlist.html';
     }
 }
+
+
+// validation of user inputs on checkout page
+
+function checkInput(){
+    var inputs = document.querySelectorAll('input');
+    for (i in inputs){
+        if (i.value === "" || i.value == null){
+            alert ("There are required fields that are not filled in.");
+            return;
+        }else{
+            location.href='ordersummary.html';
+        }
+    }
+    
+}
