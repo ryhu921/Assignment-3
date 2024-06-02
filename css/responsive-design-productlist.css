@@ -69,12 +69,17 @@
 
 @media screen and (max-width: 1350px) and (min-width: 801px) {
     .product-row{
-        flex-wrap: wrap;
         width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0;
+        padding: 0px 30px;
+        gap: 25px;
+        margin-bottom: 25px;
     }
 
     .blackblock{
-        width: 30%;
+        width: 100%;
         padding: 15px;
         height: 300px;
        }
