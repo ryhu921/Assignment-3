@@ -1,3 +1,4 @@
+//Opening and Closing
 document.addEventListener('DOMContentLoaded', (event) => {
     const openBtn = document.getElementById('open-cart');
     openBtn.addEventListener('click', openCart);
@@ -8,7 +9,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     closeBtn.addEventListener('click', closeCart);
     backdrop.addEventListener('click', closeCart);
 
-    // Initialize counters and update total and item count on page load
+// Initialize counters and update total and item count on page load
     updateCounter();
     updateCounter2();
     updateTotal();

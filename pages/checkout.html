@@ -26,10 +26,6 @@
     <title>Document</title>
 </head>
 <body>
-
-    <div id="add-to-cart1"></div>
-    <div id="add-to-cart2"></div>
-
     <!--Shopping Cart-->
 
     <!-- backdrop -->
@@ -69,7 +65,6 @@
                         </div>
                     </div>
                 </div>
-                <!--Cart Item 1-->
 
                 <!--Cart Item 2-->
                 <div id="cart-item2" class="cart-item none">
@@ -93,9 +88,9 @@
                         </div>
                     </div>
                 </div>
-                <!--Cart Item 2-->
-
             </div>
+
+            <!-- Subtotal section -->
             <div class="cart-action box-shadow">
                 <div class="subtotal-section flex-row">
                     <p class="subtotal">Subtotal (inc GST)</p>
@@ -109,34 +104,34 @@
         </div>
     </div>
 
-<!-- Nav bar -->
-<nav class="box-shadow">
-    <a href="#"><img id="hamburger-menu" src="../assets/hamburger.svg"></a>
-    <a class="logo" href="../index.html"><img id="logo" src="../assets/gdgames.svg"></a>
-    <div class="navcon2">
-        <form>
-            <div class="search">
-                <span><img src="../assets/search.svg"></span>
-                <input type="search" class="search-input" onfocus="expandList()" onblur="foldList()" onkeydown="redirect(key)">
-                <ul id="suggestions-list" class="fold">
-                    <a href="../pages/productlist.html"> <li onclick="getKeyword('Playstation 5')">Playstation 5</li></a>
-                    <li onclick="getKeyword('Playstation 4')">Playstation 4</li>
-                    <li onclick="getKeyword('Nintendo Switch')">Nintendo Switch</li>
-                    <li onclick="getKeyword('Xbox')">Xbox</li>
-                </ul>
-            </div>
-        </form>
-    </div>
-    <div id="currency" class="audfont">$AUD
-        <img id="currency-arrow-icon" src="../assets/arrow.svg">
-    </div>
-    <a class="user-icon" href="#"><img id="user-icon" src="../assets/user.svg"></a>
-    <a href="#"><img id="wishlist-icon" src="../assets/wishlist.svg"></a>
-    <button id="open-cart">
-        <img id="cart-icon" src="../assets/basket.svg">
-        <span id="items-num" class="items-num-style none">1</span>
-    </button>
-</nav>
+    <!-- Nav bar -->
+    <nav class="box-shadow">
+        <a href="#"><img id="hamburger-menu" src="../assets/hamburger.svg"></a>
+        <a class="logo" href="../index.html"><img id="logo" src="../assets/gdgames.svg"></a>
+        <div class="navcon2">
+            <form>
+                <div class="search">
+                    <span><img src="../assets/search.svg"></span>
+                    <input type="search" class="search-input" onfocus="expandList()" onblur="foldList()" onkeydown="redirect(key)">
+                    <ul id="suggestions-list" class="fold">
+                        <a href="../pages/productlist.html"> <li onclick="getKeyword('Playstation 5')">Playstation 5</li></a>
+                        <li onclick="getKeyword('Playstation 4')">Playstation 4</li>
+                        <li onclick="getKeyword('Nintendo Switch')">Nintendo Switch</li>
+                        <li onclick="getKeyword('Xbox')">Xbox</li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <div id="currency" class="audfont">$AUD
+            <img id="currency-arrow-icon" src="../assets/arrow.svg">
+        </div>
+        <a class="user-icon" href="#"><img id="user-icon" src="../assets/user.svg"></a>
+        <a href="#"><img id="wishlist-icon" src="../assets/wishlist.svg"></a>
+        <button id="open-cart">
+            <img id="cart-icon" src="../assets/basket.svg">
+            <span id="items-num" class="items-num-style none">1</span>
+        </button>
+    </nav>
     
     <main>
         <div id="shoppinginfo" class="flex-row horizontal-center spacing">
@@ -473,4 +468,7 @@
             <button onclick="checkInput()" class="btn btn-savecontinue">Save And Continue</button>
         </div>
     </main>
+    <!-- Shopping Cart Required IDs --> 
+    <div id="add-to-cart1"></div>
+    <div id="add-to-cart2"></div>
 </body>
