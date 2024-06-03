@@ -254,9 +254,9 @@ function redirect(key) {
 
 
 // validation of user inputs on checkout page
-
+/*
 function checkInput(){
-    var inputs = document.querySelectorAll('form');
+    var inputs = document.querySelectorAll('input');
     for (i in inputs){
         if (i.value === "" || i.value == null){
             alert ("There are required fields that are not filled in.");
@@ -266,5 +266,16 @@ function checkInput(){
         }
     }
     
-}
+}; */
 
+const form = document.getElementById('form')
+
+form.addEventListener('savecontinue',(e)=>{
+    if (input.value === "" || input.value == null){
+        alert ("There are required fields that are not filled in.");
+        return;
+    }else{
+        location.href='ordersummary.html';
+    }
+
+})
