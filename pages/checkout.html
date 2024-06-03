@@ -138,168 +138,167 @@
             <!-- left half of the page-->
             <div id="left-half" class="flex-col">
                 <!-- shipping info -->
-                <form id="form" action="/" method="GET">
+                <div class="checkout-heading flex-col center">
+                    <div class="redline"></div>
+                    <h1 class="product-shipping">Shipping Information</h1>
+                </div>
+                <div class="flex-row inputbox-gap">
+                    <div class="flex-col">
+                        <div class="flex-row">
+                        <p class="inter-regular-16">First Name:</p> 
+                        <p class="inter-regular-16 asterisk">*</p>
+                        </div>
+                        <form>
+                            <div class="info-input">
+                                <input type="text" class="info">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Last Name:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                        </div>                        
+                        <form>
+                            <div class="info-input">
+                                <input type="text" class="info">
+                            </div>
+                        </form>
+                    </div>                   
+                </div>
+                <div class="flex-row">
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Email Address:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                        </div>
+                        <form>
+                            <div class="info-input long-info">
+                                <input type="text" class="info">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="flex-row margin-bottom">
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Phone Number:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                        </div>
+                        <form>
+                            <div class="info-input long-info">
+                                <input type="text" class="info">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Street Address:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                        </div>
+                        <form>
+                            <div class="info-input long-info">
+                                <input type="text" class="info">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="flex-row inputbox-gap">
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Suburb:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                        </div>
+                        <form>
+                            <div class="info-input">
+                                <input type="text" class="info">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">State/Territory:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                        </div>
+                        <form>
+                            <div class="info-input">                                
+                                <select class ="info-input dropdown-list" name="state/territory" id="state/territory">
+                                    <option value="unselected"></option>                    
+                                    <option value="nsw">New South Wales</option>
+                                    <option value="vic">Victoria</option>
+                                    <option value="qld">Queensland</option>
+                                    <option value="sa">South Australia</option>
+                                    <option value="wa">Western Australia</option>
+                                    <option value="tas">Tasmania</option>
+                                    <option value="nt">Northern Territory</option>
+                                    <option value="act">Australian Capital Territory</option>
+                                    <option value="other-territories">Other Territories</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>                   
+                </div>
+                <div class="flex-row inputbox-gap">
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Post Code:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                        </div>
+                        <form>
+                            <div class="info-input">
+                                <input type="text" class="info">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="flex-col">
+                        <div class="flex-row">
+                            <p class="inter-regular-16">Country:</p> 
+                            <p class="inter-regular-16 asterisk">*</p>
+                        </div>
+                        <form>
+                            <div class="info-input">                                
+                                <select class ="info-input dropdown-list" name="state/territory" id="state/territory">
+                                    <option value="unselected"></option>                    
+                                    <option value="aus">Australia</option>                        
+                                </select>
+                            </div>
+                        </form>
+                    </div>                   
+                </div>
+                <div class="flex-row">
+                    <div class="check">
+                        <input id="checkbox" type="checkbox">
+                        <span class="inter-regular-16">I have a different billing address</span>   
+                    </div>
+                </div>
+                <!-- shipping method -->
+                <div class="shipping-method flex-col">
                     <div class="checkout-heading flex-col center">
                         <div class="redline"></div>
-                        <h1 class="product-shipping">Shipping Information</h1>
+                        <h1 class="product-shipping">Shipping Method</h1>
                     </div>
-                    <div class="flex-row inputbox-gap">
-                        <div class="flex-col">
-                            <div class="flex-row">
-                            <p class="inter-regular-16">First Name:</p> 
-                            <p class="inter-regular-16 asterisk">*</p>
-                            </div>
-                            <form>
-                                <div class="info-input">
-                                    <input type="text" class="info">
-                                </div>
-                            </form>
+                    <div class="onhover flex-col spacing-small red-rectangle">
+                        <div class="flex-row spacing-small">
+                            <img src="../assets/check-out/selected-ellipse.svg" alt="selected-ellipse">
+                            <p class="inter-semibold-16">Standard Delivery</p>
                         </div>
-                        <div class="flex-col">
-                            <div class="flex-row">
-                                <p class="inter-regular-16">Last Name:</p> 
-                                <p class="inter-regular-16 asterisk">*</p>
-                            </div>                        
-                            <form>
-                                <div class="info-input">
-                                    <input type="text" class="info">
-                                </div>
-                            </form>
-                        </div>                   
-                    </div>
-                    <div class="flex-row">
-                        <div class="flex-col">
-                            <div class="flex-row">
-                                <p class="inter-regular-16">Email Address:</p> 
-                                <p class="inter-regular-16 asterisk">*</p>
-                            </div>
-                            <form>
-                                <div class="info-input long-info">
-                                    <input type="text" class="info">
-                                </div>
-                            </form>
+                        <div class="description margin-left">
+                            <p class="inter-semibold-12">Free; deliver within 4-6 business days</p>
                         </div>
                     </div>
-                    <div class="flex-row margin-bottom">
-                        <div class="flex-col">
-                            <div class="flex-row">
-                                <p class="inter-regular-16">Phone Number:</p> 
-                                <p class="inter-regular-16 asterisk">*</p>
-                            </div>
-                            <form>
-                                <div class="info-input long-info">
-                                    <input type="text" class="info">
-                                </div>
-                            </form>
+                    <div class="onhover flex-col spacing-small red-rectangle unselected-rect">
+                        <div class="flex-row spacing-small">
+                            <img src="../assets/check-out/ellipse.svg" alt="ellipse">
+                            <p class="inter-semibold-16">Express Delivery</p>
+                        </div>
+                        <div class="margin-left">
+                            <p class="inter-semibold-12">$10; deliver within 2-3 business days</p>
                         </div>
                     </div>
-                    <div class="flex-row">
-                        <div class="flex-col">
-                            <div class="flex-row">
-                                <p class="inter-regular-16">Street Address:</p> 
-                                <p class="inter-regular-16 asterisk">*</p>
-                            </div>
-                            <form>
-                                <div class="info-input long-info">
-                                    <input type="text" class="info">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="flex-row inputbox-gap">
-                        <div class="flex-col">
-                            <div class="flex-row">
-                                <p class="inter-regular-16">Suburb:</p> 
-                                <p class="inter-regular-16 asterisk">*</p>
-                            </div>
-                            <form>
-                                <div class="info-input">
-                                    <input type="text" class="info">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="flex-col">
-                            <div class="flex-row">
-                                <p class="inter-regular-16">State/Territory:</p> 
-                                <p class="inter-regular-16 asterisk">*</p>
-                            </div>
-                            <form>
-                                <div class="info-input">                                
-                                    <select class ="info-input dropdown-list" name="state/territory" id="state/territory">
-                                        <option value="unselected"></option>                    
-                                        <option value="nsw">New South Wales</option>
-                                        <option value="vic">Victoria</option>
-                                        <option value="qld">Queensland</option>
-                                        <option value="sa">South Australia</option>
-                                        <option value="wa">Western Australia</option>
-                                        <option value="tas">Tasmania</option>
-                                        <option value="nt">Northern Territory</option>
-                                        <option value="act">Australian Capital Territory</option>
-                                        <option value="other-territories">Other Territories</option>
-                                    </select>
-                                </div>
-                            </form>
-                        </div>                   
-                    </div>
-                    <div class="flex-row inputbox-gap">
-                        <div class="flex-col">
-                            <div class="flex-row">
-                                <p class="inter-regular-16">Post Code:</p> 
-                                <p class="inter-regular-16 asterisk">*</p>
-                            </div>
-                            <form>
-                                <div class="info-input">
-                                    <input type="text" class="info">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="flex-col">
-                            <div class="flex-row">
-                                <p class="inter-regular-16">Country:</p> 
-                                <p class="inter-regular-16 asterisk">*</p>
-                            </div>
-                            <form>
-                                <div class="info-input">                                
-                                    <select class ="info-input dropdown-list" name="state/territory" id="state/territory">
-                                        <option value="unselected"></option>                    
-                                        <option value="aus">Australia</option>                        
-                                    </select>
-                                </div>
-                            </form>
-                        </div>                   
-                    </div>
-                    <div class="flex-row">
-                        <div class="check">
-                            <input id="checkbox" type="checkbox">
-                            <span class="inter-regular-16">I have a different billing address</span>   
-                        </div>
-                    </div>
-                    <!-- shipping method -->
-                    <div class="shipping-method flex-col">
-                        <div class="checkout-heading flex-col center">
-                            <div class="redline"></div>
-                            <h1 class="product-shipping">Shipping Method</h1>
-                        </div>
-                        <div class="onhover flex-col spacing-small red-rectangle">
-                            <div class="flex-row spacing-small">
-                                <img src="../assets/check-out/selected-ellipse.svg" alt="selected-ellipse">
-                                <p class="inter-semibold-16">Standard Delivery</p>
-                            </div>
-                            <div class="description margin-left">
-                                <p class="inter-semibold-12">Free; deliver within 4-6 business days</p>
-                            </div>
-                        </div>
-                        <div class="onhover flex-col spacing-small red-rectangle unselected-rect">
-                            <div class="flex-row spacing-small">
-                                <img src="../assets/check-out/ellipse.svg" alt="ellipse">
-                                <p class="inter-semibold-16">Express Delivery</p>
-                            </div>
-                            <div class="margin-left">
-                                <p class="inter-semibold-12">$10; deliver within 2-3 business days</p>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
+                
                 <!-- payment method -->
                 <div class="payment-method-section flex-col">
                     <div class="checkout-heading flex-col center">
@@ -467,7 +466,7 @@
         </div>
         <!-- Save And Continue -->
         <div class="save-and-continue flex-row margin-left-large margin-top-medium">
-            <button id="savecontinue"onclick="checkInput()" class="btn btn-savecontinue">Save And Continue</button>
+            <button onclick="location.href='ordersummary.html'" class="btn btn-savecontinue">Save And Continue</button>
         </div>
     </main>
     <!-- Shopping Cart Required IDs --> 
